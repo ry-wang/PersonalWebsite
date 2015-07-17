@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Navigation li {
+	display: inline;
+	padding-right: 30px;
+	font-size: 20px;
+}
+
