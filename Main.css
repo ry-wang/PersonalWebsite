@@ -1,16 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-color:#DBDADA;
+}
+
 .Navigation li {
 	font-size: 20px;
 	padding-right: 20px;
 	color: #737373;
+	
 }
 
-.Navigation li {
-	display: inline;
+.jumbotron {
+	line-height: 20px;
+	font-size: 25px;
+	text-align: center;
+	background:#979797;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
-
 
 .Links h3 {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
