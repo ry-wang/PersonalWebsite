@@ -6,6 +6,10 @@ body {
 }
 
 .Menu-Close {
+	left: -285px;  /* start off behind the scenes */
+	height: 100%;
+  	position: fixed;
+  	width: 285px;
 	cursor: pointer;
 }
 
@@ -14,8 +18,10 @@ body {
   	height: 100%;
   	position: fixed;
   	width: 285px;
+	text-decoration: none;
 	font-size: 20px;
 	color: #737373;
+	
 }
 
 .Menu-Icon {
