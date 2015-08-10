@@ -5,22 +5,47 @@ body {
 }
 
 .Menu-Close {
-	top: 0px;
-	left: -285px;  /* start off behind the scenes */
+	top: 15px;
+	left: -250px;  /* start off behind the scenes */
   	position: fixed;
-  	width: 285px;
+  	width: 250px;
 	cursor: pointer;
+	visibility: visible;
+	background-color: #393939;
+	border-top: 4px solid #636366;
+	border-left: 4px solid #636366;
+	border-right: 4px solid #636366;
+	border-bottom: 2px solid #636366;
 }
 
 .Navigation {
-	left: -285px;
+	left: -250px;
 	position: fixed;
-	width: 285px;
+	width: 250px;
+	color: #737373;
+	top: 70px;
+	background-color: #393939;
+	border-bottom: 4px solid #636366;
+	border-left: 4px solid #636366;
+	border-right: 4px solid #636366;
+}
+
+.Navigation ul {
+	list-style: none;
+	margin: 0;
+  	padding: 0;
+}
+
+.Navigation li {
+	border-top: 2px solid #636366;
+	line-height: 40px;
+}
+
+.Navigation a {
+	padding-left: 20px;
 	text-decoration: none;
 	font-size: 20px;
-	color: #737373;
-	top: 40px;
-	background-color: #979797;
+	color: #FFFFFF;
 }
 
 .Menu-Icon {
