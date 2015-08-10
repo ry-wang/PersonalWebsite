@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+body {
+	background-color:#DBDADA;
+}
 
 .Menu-Close {
 	left: -285px;  /* start off behind the scenes */
@@ -9,12 +12,14 @@
 }
 
 .Navigation {
-	left: -285px; 
-  	position: fixed;
-  	width: 285px;
+	left: -285px;
+	position: fixed;
+	width: 285px;
 	text-decoration: none;
 	font-size: 20px;
 	color: #737373;
+	top: 40px;
+	background-color: #979797;
 }
 
 .Menu-Icon {
@@ -36,12 +41,11 @@
 }
 
 .Links li {
-	padding-right: 20px;
 	display: inline;
-	right: 127px;
 	float: right;
-	margin-left: 10px;
-	padding-top: 20px;
+	margin-left: 2%;
+	padding-top: 22px;
+	padding-right: 20px;
 }
 
 footer {
