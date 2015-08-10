@@ -10,7 +10,7 @@ var main = function() {
             left: '0px'
         }, 200);
         
-        $('body').animate ({
+        $('Content').animate ({
             left: '285px'
         }, 200);
     });
@@ -22,7 +22,7 @@ var main = function() {
 		$('.Menu-Close').animate({
             left: '-285px'
         }, 200);
-        $('body').animate ({
+        $('Content').animate ({
             left: '0px'
         }, 200);
     });
