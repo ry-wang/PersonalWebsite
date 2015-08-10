@@ -5,6 +5,7 @@ body {
 }
 
 .Menu-Close {
+	top: 0px;
 	left: -285px;  /* start off behind the scenes */
   	position: fixed;
   	width: 285px;

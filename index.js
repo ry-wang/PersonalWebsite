@@ -6,7 +6,7 @@ var main = function() {
         $('.Navigation').animate({
             left: '0px'
         }, 200);
-        $('.Content').animate ({
+        $('.body').animate ({
             left: '285px'
         }, 200);
     });
@@ -15,7 +15,7 @@ var main = function() {
         $('.Navigation').animate ({
             left: '-285px'
         }, 200);
-        $('.Content').animate ({
+        $('.body').animate ({
             left: '0px'
         }, 200);
     });
