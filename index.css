@@ -1,31 +1,27 @@
 @charset "UTF-8";
-/* CSS Document */
 
-body {
-	background-color:#DBDADA;
-}
 
 .Menu-Close {
 	left: -285px;  /* start off behind the scenes */
-	height: 100%;
   	position: fixed;
   	width: 285px;
 	cursor: pointer;
 }
 
 .Navigation {
-	left: -285px;  /* start off behind the scenes */
-  	height: 100%;
+	left: -285px; 
   	position: fixed;
   	width: 285px;
 	text-decoration: none;
 	font-size: 20px;
 	color: #737373;
-	
 }
 
 .Menu-Icon {
 	cursor: pointer;
+	float: left;
+	top: 0px;
+	padding-top: 0px;
 }
 
 .jumbotron {
@@ -39,12 +35,16 @@ body {
 	margin-left: 0px;
 }
 
-.Links h3 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	background-color: grey;
-}
-
 .Links li {
 	padding-right: 20px;
 	display: inline;
+	right: 127px;
+	float: right;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+
+footer {
+	text-align: center;
+	background: #979797;
 }
