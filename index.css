@@ -53,8 +53,8 @@ body {
 	padding-left: 1%;
 	cursor: pointer;
 	float: left;
-	top: 0px;
 	padding-top: 0px;
+	padding-bottom: 3px;
 }
 
 .jumbotron {
@@ -72,7 +72,7 @@ body {
 	display: inline;
 	float: right;
 	margin-right: 1%;
-	padding-top: 13px;
+	padding-top: 14px;
 	padding-right: 0px;
 }
 
