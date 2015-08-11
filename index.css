@@ -53,11 +53,13 @@ body {
 	padding-left: 1%;
 	cursor: pointer;
 	float: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .jumbotron {
 	line-height: 20px;
 	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 	background: #7784B6;
 	padding-bottom: 20px;
@@ -96,4 +98,7 @@ body {
 footer {
 	text-align: center;
 	background: #7784B6;
+	font-style: normal;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: small;
 }
