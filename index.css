@@ -6,7 +6,7 @@ body {
 
 .Menu-Close {
 	top: 15px;
-	left: -260px;  /* start off behind the scenes */
+	left: -250px;
   	position: fixed;
   	width: 250px;
 	cursor: pointer;
@@ -19,7 +19,7 @@ body {
 }
 
 .Navigation {
-	left: -260px;
+	left: -250px;
 	position: fixed;
 	width: 250px;
 	color: #737373;
@@ -74,6 +74,10 @@ body {
 	margin-right: 1%;
 	padding-top: 14px;
 	padding-right: 0px;
+}
+
+.Links img {
+	padding-right: 15px;
 }
 
 footer {
