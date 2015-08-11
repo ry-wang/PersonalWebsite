@@ -9,6 +9,7 @@ var main = function() {
 		$('.Menu-Close').animate({
             left: '5px'
         }, 200);
+		$('.Home').addClass("active");
     });
     
     $('.Menu-Close').click(function() {
