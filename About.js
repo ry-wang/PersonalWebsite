@@ -10,7 +10,13 @@ var main = function() {
             left: '5px'
         }, 200);
     });
-    
+	
+	$('.Menu-Close img').hover(function() {
+		$(this).attr('src', 'Images/close.png');
+		}, function() {
+		$(this).attr('src','Images/closer.png');
+	});
+
     $('.Menu-Close').click(function() {
         $('.Navigation').animate ({
             left: '-260px'

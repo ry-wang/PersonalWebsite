@@ -51,7 +51,7 @@ body {
 
 .Menu {
 	font-size: 1.2em;
-	padding-left: 1%;
+	padding-left: 2%;
 	cursor: pointer;
 	float: left;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -78,12 +78,16 @@ body {
 	padding-top: 20px;
 }
 
-.content {
+.content p {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 4%;
+	margin-right: 4%;
 }
 
 .content h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: underline;
+	margin-left: 2%;
 }
 
 footer {
