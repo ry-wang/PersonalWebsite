@@ -8,9 +8,9 @@ body {
 	top: 15px;
 	left: -260px;
   	position: fixed;
-  	width: 250px;
+  	width: 240px;
 	cursor: pointer;
-	visibility: visible;
+	padding-left: 1%;
 	background-color: #393939;
 	border-top: 4px solid #636366;
 	border-left: 4px solid #636366;
@@ -28,6 +28,10 @@ body {
 	border-bottom: 4px solid #636366;
 	border-left: 4px solid #636366;
 	border-right: 4px solid #636366;
+}
+
+.Navigation a:hover {
+	color: #7784B6;
 }
 
 .Navigation ul {
