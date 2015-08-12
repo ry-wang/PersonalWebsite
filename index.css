@@ -8,14 +8,17 @@ body {
 	top: 15px;
 	left: -260px;
   	position: fixed;
-  	width: 240px;
+	width: 250px;
 	cursor: pointer;
-	padding-left: 1%;
 	background-color: #393939;
 	border-top: 4px solid #636366;
 	border-left: 4px solid #636366;
 	border-right: 4px solid #636366;
 	border-bottom: 2px solid #636366;
+}
+
+.Menu-Close img {
+	padding-left: 2.5%;
 }
 
 .Navigation {

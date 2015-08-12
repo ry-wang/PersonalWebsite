@@ -12,9 +12,9 @@ var main = function() {
     });
 	
 	$('.Menu-Close').hover(function() {
-		$(this).attr('src','Images/close.png');
+		$(this).attr('src', '/Images/close.png');
 		}, function() {
-		$(this).attr('src','Images/closer.png');
+		$(this).attr('src','/Images/closer.png');
 	});
 
     $('.Menu-Close').click(function() {
