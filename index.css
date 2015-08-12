@@ -9,7 +9,6 @@ body {
 	left: -260px;
   	position: fixed;
 	width: 250px;
-	cursor: pointer;
 	background-color: #393939;
 	border-top: 4px solid #636366;
 	border-left: 4px solid #636366;
@@ -17,9 +16,9 @@ body {
 	border-bottom: 2px solid #636366;
 }
 
-/*.Menu-Close img {
-	padding-left: 2.5%;
-}*/
+.Menu-Close img {
+	cursor: pointer;
+}
 
 .Navigation {
 	left: -260px;
