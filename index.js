@@ -11,10 +11,10 @@ var main = function() {
         }, 200);
     });
 	
-	$('.Menu-Close').hover(function() {
-		$('.Menu-Close img').attr('src', 'Images/close.png');
+	$('.Menu-Close img').hover(function() {
+		$(this).attr('src', 'Images/close.png');
 		}, function() {
-		$('.Menu-Close img').attr('src','Images/closer.png');
+		$(this).attr('src','Images/closer.png');
 	});
 
     $('.Menu-Close').click(function() {
