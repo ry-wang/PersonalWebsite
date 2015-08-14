@@ -31,6 +31,10 @@ body {
 	border-right: 4px solid #636366;
 }
 
+.Navigation a:hover {
+	color: #7784B6;
+}
+
 .Navigation ul {
 	list-style: none;
 	margin: 0;
