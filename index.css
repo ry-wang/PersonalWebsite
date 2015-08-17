@@ -64,6 +64,7 @@ body {
 }
 
 .jumbotron {
+	clear: both;
 	line-height: 20px;
 	font-size: 25px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
