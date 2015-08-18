@@ -41,10 +41,12 @@ var main = function() {
 	});
 	
 	if ((commentLength > 0) && (emailLength > 0) ){
-		$('#Submission').prop('disabled', true);
+		$('#Submission').prop('disabled', false);
+		$('#Submission').css('cursor', 'pointer');
 	}
 	else {
-		$('#Submission').prop('disabled', false);
+		$('#Submission').prop('disabled', true);
+		$('#Submission').css('cursor', 'default');
 	}
 	
 	$('.Menu-Close img').hover(function() {
@@ -66,7 +68,7 @@ var main = function() {
 	});
 		
 	
-	$('#Submission').prop('disabled', false);
+	$('#Submission').prop('disabled', true);
 };
 
 $(document).ready(main);

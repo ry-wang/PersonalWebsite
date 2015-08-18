@@ -104,7 +104,6 @@ body {
 }
 
 #Submission {
-	cursor: pointer;
 	border: thin solid #000000;
 	width: 10em;
 	height: 2.5em;
