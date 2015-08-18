@@ -30,30 +30,31 @@ var main = function() {
 	
 	//Code for feedback from below
 	
-	var commentLength = $('#Submission').val().length;
-	var emailLength = $('#Email').val().length;
+	var commentLength;
+	var emailLength;
 	
-	$('#Submission').click(function() {
-		$(this).val('');
-		$(this).addClass('disabled');
-	});
-	
-	$('#Submission').keyup(function() {
-		commentLength = $(this).val().length;
-	});
 	$('#Email').keyup(function() {
 		emailLength = $(this).val().length;
 	});
+	$('#Submission').keyup(function() {
+		commentLength = $(this).val().length;
+	});
 	
 	if ((commentLength > 0) && (emailLength > 0) ){
-		$('#Submission').addClass('enabled');
+		$('#Submission').prop('disabled', true);
 	}
 	else {
-		$('#Submission').addClass('disabled');
+		$('#Submission').prop('disabled', false);
 	}
+	
+	$('#Submission').click(function() {
+		$('#Textbox').val('');
+		$('#Email').val('');
+		$(this).prop('disabled', true);
+	});
 		
 	
-	$('#Submission').addClass('disabled');
+	$('#Submission').prop('disabled', false);
 };
 
 $(document).ready(main);
