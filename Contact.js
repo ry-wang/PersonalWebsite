@@ -34,15 +34,18 @@ var main = function() {
 	var emailLength;
 	
 	$('#Email').keyup(function() {
+		console.log("Email print");
 		emailLength = $(this).val().length;
 		checkLength();
 	});
 	$('#Submission').keyup(function() {
+		console.log("Textbox print");
 		commentLength = $(this).val().length;
 		checkLength();
 	});
 	
 	function checkLength() {
+		console.log("function print");
 		if ((commentLength > 0) && (emailLength > 0) ){
 			$('#Submission').prop('disabled', false);
 			$('#Submission').css('cursor', 'pointer');
