@@ -66,7 +66,9 @@ var main = function() {
 			$('#Submission').css('cursor', 'pointer');
 		}
 		else {
+			console.log("Start");
 			$('#Submission').prop('disabled', true);
+			console.log("Finish");
 			$('#Submission').css('cursor', 'default');
 		}
 	}
@@ -84,12 +86,12 @@ var main = function() {
 	});
 	
 	$('#Submission').click(function() {
-		/*$('#Textbox').val('');
-		$('#Email').val('');
-		$(this).prop('disabled', true);
+		/*$(this).prop('disabled', true);
 		$(this).css('background-color', '#9E9E9E');
 		$(this).css('color', '#000000');
-		$(this).css('cursor', 'default');*/
+		$(this).css('cursor', 'default');
+		$('#Textbox').val('');
+		$('#Email').val('');*/
 	});
 		
 	
