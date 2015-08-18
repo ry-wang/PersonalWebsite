@@ -35,29 +35,33 @@ var main = function() {
 	
 	$('#Email').keyup(function() {
 		emailLength = $(this).val().length;
+		checkLength();
 	});
 	$('#Submission').keyup(function() {
 		commentLength = $(this).val().length;
+		checkLength();
 	});
 	
-	if ((commentLength > 0) && (emailLength > 0) ){
-		$('#Submission').prop('disabled', false);
-		$('#Submission').css('cursor', 'pointer');
-	}
-	else {
-		$('#Submission').prop('disabled', true);
-		$('#Submission').css('cursor', 'default');
+	function checkLength() {
+		if ((commentLength > 0) && (emailLength > 0) ){
+			$('#Submission').prop('disabled', false);
+			$('#Submission').css('cursor', 'pointer');
+		}
+		else {
+			$('#Submission').prop('disabled', true);
+			$('#Submission').css('cursor', 'default');
+		}
 	}
 	
-	$('.Menu-Close img').hover(function() {
-		if ($('#Submission').is('disabled') === false) {
-			$('#Submission').css('background-color', '#7784B6');
-			$('#Submission').css('color', '#FFFFFF');
+	$('#Submission').hover(function() {
+		if ($(this).is('disabled') === false) {
+			$(this).css('background-color', '#7784B6');
+			$(this).css('color', '#FFFFFF');
 		}
 		}, function() {
-		if ($('#Submission').is('disabled') === false) {
-			$('#Submission').css('background-color', '#9E9E9E');
-			$('#Submission').css('color', '#000000');
+		if ($(this).is('disabled') === false) {
+			$(this).css('background-color', '#9E9E9E');
+			$(this).css('color', '#000000');
 		}
 	});
 	
