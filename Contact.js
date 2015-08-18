@@ -47,6 +47,18 @@ var main = function() {
 		$('#Submission').prop('disabled', false);
 	}
 	
+	$('.Menu-Close img').hover(function() {
+		if ($('#Submission').is('disabled') === false) {
+			$('#Submission').css('background-color', '#7784B6');
+			$('#Submission').css('color', '#FFFFFF');
+		}
+		}, function() {
+		if ($('#Submission').is('disabled') === false) {
+			$('#Submission').css('background-color', '#9E9E9E');
+			$('#Submission').css('color', '#000000');
+		}
+	});
+	
 	$('#Submission').click(function() {
 		$('#Textbox').val('');
 		$('#Email').val('');
