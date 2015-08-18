@@ -72,6 +72,9 @@ var main = function() {
 		$('#Textbox').val('');
 		$('#Email').val('');
 		$(this).prop('disabled', true);
+		$(this).css('background-color', '#9E9E9E');
+		$(this).css('color', '#000000');
+		$(this).css('cursor', 'default');
 	});
 		
 	
