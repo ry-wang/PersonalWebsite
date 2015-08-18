@@ -29,7 +29,7 @@ var main = function() {
     });
 	
 	//Code for changing icons
-	
+
 	$('#hackerrank').hover(function() {
 		$(this).attr('src', 'Images/hackerrank.png');
 		}, function() {
