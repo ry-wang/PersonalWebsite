@@ -38,7 +38,7 @@ var main = function() {
 		emailLength = $(this).val().length;
 		checkLength();
 	});
-	$('#Submission').keyup(function() {
+	$('#Textbox').keyup(function() {
 		console.log("Textbox print");
 		commentLength = $(this).val().length;
 		checkLength();
