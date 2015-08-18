@@ -45,12 +45,12 @@ var main = function() {
 	});
 	
 	function checkLength() {
-		console.log("function print");
-		if ((commentLength > 0) && (emailLength > 0) ){
+		if ((commentLength > 0) && (emailLength > 0)) {
 			$('#Submission').prop('disabled', false);
 			$('#Submission').css('cursor', 'pointer');
 		}
 		else {
+			console.log("function print");
 			$('#Submission').prop('disabled', true);
 			$('#Submission').css('cursor', 'default');
 		}
@@ -69,12 +69,12 @@ var main = function() {
 	});
 	
 	$('#Submission').click(function() {
-		$('#Textbox').val('');
+		/*$('#Textbox').val('');
 		$('#Email').val('');
 		$(this).prop('disabled', true);
 		$(this).css('background-color', '#9E9E9E');
 		$(this).css('color', '#000000');
-		$(this).css('cursor', 'default');
+		$(this).css('cursor', 'default');*/
 	});
 		
 	
