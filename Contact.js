@@ -34,12 +34,10 @@ var main = function() {
 	var emailLength;
 	
 	$('#Email').keyup(function() {
-		console.log("Email print");
 		emailLength = $(this).val().length;
 		checkLength();
 	});
 	$('#Textbox').keyup(function() {
-		console.log("Textbox print");
 		commentLength = $(this).val().length;
 		checkLength();
 	});
@@ -50,7 +48,6 @@ var main = function() {
 			$('#Submission').css('cursor', 'pointer');
 		}
 		else {
-			console.log("function print");
 			$('#Submission').prop('disabled', true);
 			$('#Submission').css('cursor', 'default');
 		}
@@ -79,6 +76,7 @@ var main = function() {
 		
 	
 	$('#Submission').prop('disabled', true);
+	
 };
 
 $(document).ready(main);
