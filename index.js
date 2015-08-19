@@ -41,8 +41,8 @@ var main = function() {
     });
 	
 	//Code for changing icons
-
-	$('#hackerrank').hover(function() {
+	//You don't need this anymore.
+/* 	$('#hackerrank').hover(function() {
 		$(this).attr('src', 'Images/hackerrank.png');
 		}, function() {
 		$(this).attr('src', 'Images/hackerrankDark.png');
@@ -56,7 +56,7 @@ var main = function() {
 		$(this).attr('src', 'Images/linkedin.png');
 		}, function() {
 		$(this).attr('src', 'Images/linkedinDark.png');
-	});
+	}); */
 	
 };
 
