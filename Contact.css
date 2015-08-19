@@ -74,6 +74,18 @@ body {
 	padding-right: 15px;
 }
 
+.hovershow {
+	display: none;
+}
+
+.hovercontainer:hover .hovershow {
+	display: inline;
+}
+
+.hovercontainer:hover .hoverhide {
+	display: none;
+}
+
 .jumbotron {
 	clear: both;
 	text-align: center;

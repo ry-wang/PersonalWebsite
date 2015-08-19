@@ -63,6 +63,18 @@ body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.hovershow {
+	display: none;
+}
+
+.hovercontainer:hover .hovershow {
+	display: inline;
+}
+
+.hovercontainer:hover .hoverhide {
+	display: none;
+}
+
 .jumbotron {
 	clear: both;
 	line-height: 20px;
