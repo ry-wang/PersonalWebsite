@@ -44,7 +44,7 @@ var main = function() {
 	$('#hackerrank').hover(function() {
 		$(this).attr('src', 'Images/hackerrank.png');
 		}, function() {
-		$(this).attr('src', 'Images/hackerrankDark.png');
+		$(this).attr('src', 'preload[0]');
 	});
 	$('#github').hover(function() {
 		$(this).attr('src', 'Images/github.png');
