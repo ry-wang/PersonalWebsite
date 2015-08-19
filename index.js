@@ -2,6 +2,20 @@
 
 var main = function() {
 	"use strict";
+	
+	//Preloading Images
+	preload([
+		'Images/hackerrankDark.png',
+		'Images/githubDark.png',
+		'Images/linkedinDark.png',
+	]);
+	function preload(imageArray) {
+		$(imageArray).each(function() {
+            $('<img />').attr('src', this).appendTo('body').css('display', 'none');
+        });
+	}
+	
+	//Menu Animation
     $('.Menu').click(function() {
         $('.Navigation').animate({
             left: '5px'

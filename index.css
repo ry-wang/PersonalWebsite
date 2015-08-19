@@ -75,8 +75,10 @@ body {
 }
 
 .jumbotron img {
+	border-radius: 100%;
 	height: 125px;
 	width: 125px;
+	border: medium solid #DBDADA;
 }
 
 .Links li {
@@ -109,4 +111,6 @@ footer {
 	font-style: normal;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: small;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }

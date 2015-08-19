@@ -2,7 +2,21 @@
 
 var main = function() {
 	"use strict";
-    $('.Menu').click(function() {
+    
+	//Preloading Images
+	preload([
+		'Images/hackerrankDark.png',
+		'Images/githubDark.png',
+		'Images/linkedinDark.png',
+	]);
+	function preload(imageArray) {
+		$(imageArray).each(function() {
+            $('<img />').attr('src', this).appendTo('body').css('display', 'none');
+        });
+	}
+	
+	//Slide-in Menu
+	$('.Menu').click(function() {
         $('.Navigation').animate({
             left: '5px'
         }, 200);
@@ -27,7 +41,6 @@ var main = function() {
     });
 	
 	//Code for changing icons
-
 	$('#hackerrank').hover(function() {
 		$(this).attr('src', 'Images/hackerrank.png');
 		}, function() {

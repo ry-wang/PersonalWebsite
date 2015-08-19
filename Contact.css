@@ -94,6 +94,7 @@ body {
 	margin-right: 5%;
 	float: right;
 	text-align: center;
+	padding-bottom: 2%;
 } 
 
 #Textbox {
@@ -110,7 +111,13 @@ body {
 	background-color:#9E9E9E;
 }
 
-/*#Submission:hover {
-	background-color: #7784B6;
-	color: #FFFFFF;
-}*/
+Footer {
+	text-align: center;
+	background: #7784B6;
+	font-style: normal;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: small;
+	clear: both;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
