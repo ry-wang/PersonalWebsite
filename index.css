@@ -4,7 +4,7 @@ body {
 	background-color:#DBDADA;
 }
 
-#Menu-Close {
+.Menu-Close {
 	top: 15px;
 	left: -260px;
   	position: fixed;
@@ -16,7 +16,7 @@ body {
 	border-bottom: 2px solid #636366;
 }
 
-#Menu-Close img {
+.Menu-Close img {
 	cursor: pointer;
 	padding-left: 1.6%;
 }

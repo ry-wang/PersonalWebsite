@@ -2,18 +2,6 @@
 
 var main = function() {
 	"use strict";
-    
-	//Preloading Images
-	preload([
-		'Images/hackerrankDark.png',
-		'Images/githubDark.png',
-		'Images/linkedinDark.png',
-	]);
-	function preload(imageArray) {
-		$(imageArray).each(function() {
-            $('<img />').attr('src', this).appendTo('body').css('display', 'none');
-        });
-	}
 	
 	//Slide-in Menu
 	$('.Menu').click(function() {
@@ -40,22 +28,6 @@ var main = function() {
         }, 200);
     });
 	
-	//Code for changing icons
-	$('#hackerrank').hover(function() {
-		$(this).attr('src', 'Images/hackerrank.png');
-		}, function() {
-		$(this).attr('src', 'Images/hackerrankDark.png');
-	});
-	$('#github').hover(function() {
-		$(this).attr('src', 'Images/github.png');
-		}, function() {
-		$(this).attr('src', 'Images/githubDark.png');
-	});
-	$('#linkedin').hover(function() {
-		$(this).attr('src', 'Images/linkedin.png');
-		}, function() {
-		$(this).attr('src', 'Images/linkedinDark.png');
-	});
 };
 
 $(document).ready(main);
