@@ -19,7 +19,7 @@ var main = function() {
 		$(this).attr('src','Images/closer.png');
 	});
 
-    $('.hovercontainer').click(function() {
+    $('.Menu-Close').click(function() {
         $('.Navigation').animate ({
             left: '-260px'
         }, 200);
