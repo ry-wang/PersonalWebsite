@@ -114,16 +114,3 @@ footer {
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
-
-/* this is the part that I added */
-.hovershow {
-	display: none;
-}
-
-.hovercontainer:hover .hovershow {
-	display: inline;
-}
-
-.hovercontainer:hover .hoverhide {
-	display: none;
-}
