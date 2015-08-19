@@ -2,9 +2,10 @@
 
 var main = function() {
 	"use strict";
-	
-	//Preloading Images
-	preload([
+	var hackerrankDark = new Image('Images/hackerrankDark.png');
+	var githubDark = new Image('Images/githubDark.png');
+	var linkedinDark = new Image('Images/linkedinDark.png');
+	/*preload([
 		'Images/hackerrankDark.png',
 		'Images/githubDark.png',
 		'Images/linkedinDark.png',
@@ -13,7 +14,7 @@ var main = function() {
 		$(imageArray).each(function() {
             $('<img />').attr('src', this).appendTo('body').css('display', 'none');
         });
-	}
+	}*/
 	
 	//Menu Animation
     $('.Menu').click(function() {
@@ -44,17 +45,17 @@ var main = function() {
 	$('#hackerrank').hover(function() {
 		$(this).attr('src', 'Images/hackerrank.png');
 		}, function() {
-		$(this).attr('src', 'Images/hackerrankDark.png');
+		$(this).attr('src', hackerrankDark);
 	});
 	$('#github').hover(function() {
 		$(this).attr('src', 'Images/github.png');
 		}, function() {
-		$(this).attr('src', 'Images/githubDark.png');
+		$(this).attr('src', githubDark);
 	});
 	$('#linkedin').hover(function() {
 		$(this).attr('src', 'Images/linkedin.png');
 		}, function() {
-		$(this).attr('src', 'Images/linkedinDark.png');
+		$(this).attr('src', linkedinDark);
 	}); 
 	
 };
