@@ -63,6 +63,13 @@ body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.hoverMenu:hover .hoverhide {
+	display: none;
+}
+.hoverMenu:hover .hovershow {
+	display: block;
+}
+
 .hovershow {
 	display: none;
 }
