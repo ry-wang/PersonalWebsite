@@ -32,5 +32,6 @@ var main = function() {
 
 $(document).ready(function() {
 	"use strict";
-	$('.description').fadeIn(1000);
+	$('#jumbo-description').hide().fadeIn(2000);
+	$('.description').hide().fadeIn(2000);
 });
