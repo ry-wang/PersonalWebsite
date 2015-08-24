@@ -123,6 +123,11 @@ body {
 	background-color:#9E9E9E;
 }
 
+#new-site {
+	clear: both;
+	text-align: center;
+}
+
 Footer {
 	text-align: center;
 	background: #7784B6;

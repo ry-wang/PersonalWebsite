@@ -48,10 +48,10 @@ var main = function() {
 			$('#Submission').css('cursor', 'pointer');
 		}
 		else {
-			console.log("Start");
 			$('#Submission').prop('disabled', true);
-			console.log("Finish");
 			$('#Submission').css('cursor', 'default');
+			$('#Submission').css('background-color', '#9E9E9E');
+			$('#Submission').css('color', '#000000');
 		}
 	}
 	
