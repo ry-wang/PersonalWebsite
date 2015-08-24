@@ -34,5 +34,5 @@ $(document).ready(function() {
 	"use strict";
 	$('#jumbo-description').hide().fadeIn(2000).delay(1000);
 	$('.description').hide().fadeIn(2000);
+	$(document).ready(main);
 });
-$(document).ready(main);
