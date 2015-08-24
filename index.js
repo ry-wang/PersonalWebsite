@@ -30,4 +30,7 @@ var main = function() {
 	
 };
 
-$(document).ready(main);
+$(document).ready(function() {
+	"use strict";
+	$('.description').fadeIn(1000);
+});
