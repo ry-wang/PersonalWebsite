@@ -146,6 +146,11 @@ body {
 	text-align: center;
 }
 
+#new-site {
+	clear: both;
+	text-align: center;
+}
+
 footer {
 	text-align: center;
 	background: #7784B6;
