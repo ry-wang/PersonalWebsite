@@ -32,7 +32,7 @@ var main = function() {
 
 $(document).ready(function() {
 	"use strict";
-	$('#jumbo-description').fadeTo(600, 1);
-	$('.description').fadeTo(600, 1);
+	//$('#jumbo-description').fadeTo(600, 1);
+	//$('.description').fadeTo(600, 1);
 	$(document).ready(main);
 });
