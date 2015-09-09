@@ -87,7 +87,7 @@ body {
 }
 
 #jumbo-description {
-	visibility: hidden;
+	opacity: 0;
 }
 
 .jumbotron img {
@@ -119,7 +119,7 @@ body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	visibility: hidden;
+	opacity: 0;
 }
 
 #new-site {
