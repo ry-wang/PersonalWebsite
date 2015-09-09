@@ -32,7 +32,7 @@ var main = function() {
 
 $(document).ready(function() {
 	"use strict";
-	$('#jumbo-description').fadeIn(2000);
-	$('.description').delay(1000).fadeIn(2000);
+	$('#jumbo-description').css('visibility', 'visible');
+	$('.description').css('visibility', 'visible');
 	$(document).ready(main);
 });
