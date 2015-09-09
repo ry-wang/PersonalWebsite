@@ -32,7 +32,7 @@ var main = function() {
 
 $(document).ready(function() {
 	"use strict";
-	$('#jumbo-description').animate({opacity:1});
-	$('.description').animate({opacity:1});
+	$('#jumbo-description').animate({opacity:1, visibility: 'visible'}, 200);
+	$('.description').animate({opacity:1, visibility: 'visible'}, 200);
 	$(document).ready(main);
 });
