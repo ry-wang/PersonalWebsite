@@ -120,8 +120,15 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
+.description {
+	padding-left: 10%;
+	padding-right: 10%;
+}
 .lead {
-	padding: 10px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 
