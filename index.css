@@ -73,7 +73,8 @@ body {
 }
 
 .masthead-nav > li {
-  display: inline-block;
+	display: inline-block;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 .masthead-nav > li + li {
   margin-left: 20px;
@@ -102,7 +103,9 @@ body {
 
 @media (min-width: 768px) {
   .masthead-brand {
-    float: left;
+	float: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-top: 14px;
   }
   .masthead-nav {
     float: right;
@@ -126,12 +129,15 @@ body {
 	padding-right: 10%;
 }
 .lead {
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
+
+#old-site {
+}
 
 /*
  * Footer
@@ -139,10 +145,11 @@ body {
  footer {
 	text-align: center;
 	font-style: normal;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-size: small;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	font-weight: 400;
  }
 
 
@@ -183,4 +190,3 @@ body {
 	width: 150px;
 	border: medium solid #DBDADA;
 }
-
