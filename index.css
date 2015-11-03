@@ -67,8 +67,13 @@ body {
  * Header
  */
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-transform: capitalize;
+	font-weight: bold;
+	letter-spacing: normal;
+	color: #C8C8C8;
   
 }
 
@@ -109,6 +114,7 @@ body {
   }
   .masthead-nav {
     float: right;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
   }
 }
 
@@ -124,19 +130,37 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
+.cover-heading {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: lighter;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	word-spacing: 0.2px;
+	margin-bottom: -14px;
+}
+.Subtitle {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-variant: small-caps;
+	font-weight: lighter;
+	word-spacing: 0.01em;
+}
 .description {
 	padding-left: 10%;
 	padding-right: 10%;
 }
 .lead {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	padding-top: 3%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	letter-spacing: 0em;
+	padding-top: 2.1%;
 }
 
 
 #old-site {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-bottom: -2px;
+	margin-top: 34px;
 }
 
 /*
