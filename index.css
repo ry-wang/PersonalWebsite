@@ -59,7 +59,8 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+	padding: 2%;
+	margin-bottom: 5%;
 }
 
 
@@ -67,13 +68,17 @@ body {
  * Header
  */
 .masthead-brand {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 1.5%;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	text-transform: capitalize;
-	font-weight: bold;
+	font-weight: normal;
 	letter-spacing: normal;
 	color: #C8C8C8;
+	margin-left: 1%;
+	font-variant: normal;
+	font-style: normal;
+	font-size: medium;
+	text-shadow: 0 0px;
   
 }
 
@@ -85,25 +90,21 @@ body {
   margin-left: 20px;
 }
 .masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 15px;
+	font-weight: normal;
+	color: #fff; /* IE8 proofing */
+	color: rgba(255,255,255,.75);
+	border-bottom: 2px solid transparent;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-variant: normal;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -114,7 +115,6 @@ body {
   }
   .masthead-nav {
     float: right;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
   }
 }
 
@@ -159,8 +159,8 @@ body {
 
 #old-site {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	margin-bottom: -2px;
-	margin-top: 34px;
+	margin-bottom: 1%;
+	margin-top: 3%;
 }
 
 /*
@@ -209,6 +209,7 @@ body {
 }
 
 #Picture {
+	margin-top: 10%;
 	border-radius: 100%;
 	height: 150px;
 	width: 150px;
