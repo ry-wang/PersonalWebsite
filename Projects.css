@@ -1,7 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
 .carousel {
-	height: 60%;
+	height: 600px;
+	margin-bottom: 5%;
 }
 
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  	height: 600px;
+  }
+.carousel-inner > .item > img {
+	position: relative;
+	align-content:center;
+}
+.carousel-1-description {
+	position:relative;
+	text-align:center;
+	color:#B8B5B5;	
+}
