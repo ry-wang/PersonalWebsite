@@ -6,19 +6,28 @@
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carousel {
-	height: 600px;
-	margin-bottom: 5%;
+	height: 500px;
+	margin-bottom: 2%;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  	height: 600px;
+  	height: 500px;
   }
 .carousel-inner > .item > img {
+	width: auto;
+	height: auto;
+	margin:auto;
 	position: relative;
-	align-content:center;
+	top:0;
+	left:0;
 }
 .carousel-1-description {
+	position:relative;
+	text-align:center;
+	color:#B8B5B5;	
+}
+.carousel-2-description {
 	position:relative;
 	text-align:center;
 	color:#B8B5B5;	
