@@ -1,11 +1,35 @@
 @charset "utf-8";
 /* CSS Document */
 
+.nav-wrapper {
+	width: auto;
+	height: 40px;
+	background-color: #DBDBDB;
+}
+#home {
+	float: left;
+	display: inline;
+	list-style-type: none;
+	padding-top: 10px;
+	margin-left: 200px;
+}
+#end {
+	margin-right:200px;
+}
+.navigation > li {
+	list-style-type:none;
+	float: right; 
+	display:inline;
+	margin-right:50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carousel {
+	clear: both;
 	height: 500px;
 	margin-bottom: 2%;
 }
@@ -28,6 +52,7 @@
 	color:#B8B5B5;	
 }
 .carousel-2-description {
+	display:none;
 	position:relative;
 	text-align:center;
 	color:#B8B5B5;	
