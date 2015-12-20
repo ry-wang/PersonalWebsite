@@ -55,28 +55,26 @@
 	top:0;
 	left:0;
 }
-
-#c1-header {
+.carousel-1-description {
+	color:#000000;	
 	position:relative;
+}
+
+.carousel-1-description h1 {	
 	text-align:center;
 	font-family: 'Roboto';
 	font-size:38px;
-	color:#000000;	
 }
-#c1-sheader {
-	position:relative;
+.carousel-1-description h2 {
 	text-align:center;
 	font-family: 'Roboto';
 	font-size:22px;
-	color:#000000;
-	padding-bottom:20px;	
+	padding-bottom:20px;
 }
-#c1-description {
-	position:relative;
+.carousel-1-description p {
 	text-align:center;
 	font-family: 'Roboto-Thin';
-	font-size:19px;
-	color:#000000;	
+	font-size:19px;	
 }
 
 .carousel-2-description {
