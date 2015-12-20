@@ -1,6 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: 'Roboto-Thin'; 
+   	src: url(Fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: 'Roboto'; 
+   	src: url(Fonts/Roboto.ttf);
+}
+
 .nav-wrapper {
 	width: auto;
 	height: 40px;
@@ -46,14 +55,35 @@
 	top:0;
 	left:0;
 }
-.carousel-1-description {
+
+#c1-header {
 	position:relative;
 	text-align:center;
-	color:#B8B5B5;	
+	font-family: 'Roboto';
+	font-size:38px;
+	color:#000000;	
 }
+#c1-sheader {
+	position:relative;
+	text-align:center;
+	font-family: 'Roboto';
+	font-size:22px;
+	color:#000000;
+	padding-bottom:20px;	
+}
+#c1-description {
+	position:relative;
+	text-align:center;
+	font-family: 'Roboto-Thin';
+	font-size:19px;
+	color:#000000;	
+}
+
 .carousel-2-description {
 	display:none;
 	position:relative;
 	text-align:center;
-	color:#B8B5B5;	
+	font-size:24px;
+	font-family: 'Roboto-Thin';
+	color:#000000;	
 }

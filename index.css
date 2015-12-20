@@ -1,10 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
-
-
-/*
- * Globals
- */
+ 
+@font-face {
+    font-family: 'Roboto-Thin'; 
+   	src: url(Fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: 'Roboto'; 
+   	src: url(Fonts/Roboto.ttf);
+}
 
 /* Links */
 a,
