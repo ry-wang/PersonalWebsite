@@ -8,10 +8,17 @@ var main = function() {
 			case "1": 
 				$('.carousel-1-description').css('display', 'block');
 				$('.carousel-2-description').css('display', 'none');
+				$('.carousel-3-description').css('display', 'none');
 			break;
 			case "2": 
 				$('.carousel-1-description').css('display', 'none');
 				$('.carousel-2-description').css('display', 'block');
+				$('.carousel-3-description').css('display', 'none');
+			break;
+			case "3":
+				$('.carousel-1-description').css('display', 'none');
+				$('.carousel-2-description').css('display', 'none');
+				$('.carousel-3-description').css('display', 'block');
 			break;
 		}
 	});

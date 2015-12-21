@@ -16,39 +16,42 @@
 <body>
 
 <div class="navigation">
-<li id = "home"><a href="index.html">Home</a></li>
-
-        <li id="end"><a href="index.html">Contact</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Projects.html">Projects</a></li>
+      <li id = "home"><a href="index.html">Home</a></li>
+      <li id="end"><a href="index.html">Contact</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="About.html">About</a></li> 
 </div>
 
 <div id="Carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#Carousel" data-slide-to="1"></li>
-  </ol>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#Carousel" data-slide-to="1"></li>
+        <li data-target="#Carousel" data-slide-to="2"></li>
+      </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-      <div id="1" class="item active">
-        <img src="Images/megaman.png" alt="">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+          <div id="1" class="item active">
+            <img src="Images/megaman.png" alt="">
+          </div>
+          <div id="2" class="item">
+              <img src="Images/spacecraft.png" alt="">
+          </div> 
+          <div id="3" class="item">
+            <img src="Images/watWatch.png" alt="">
+          </div>
       </div>
-      <div id="2" class="item">
-          <img src="Images/spacecraft.png" alt="">
-      </div>  
-  </div>
-   
- <!--Button Controls-->
-  <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-  </a>
+       
+      <!--Button Controls-->
+      <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
       
 </div>
    
@@ -69,6 +72,13 @@
       <h2>Java Applet</h2>
       <p>This is another applet that I made using Java, and it was my first time using Object Oriented Programming. Coding was done through the Eclipse IDE and image editing was done with Adobe Photoshop. It's a simple space game where the user shoots at comets and alien ships with a limited number of lives and bullets. The alien ships will also shoot in addition to move. The applet also makes use of RNG when determining initial locations of the comets and their type. There are also powerups that periodically appear and are available to the player.</p>
       <p>The code for the applet can be found <a href="https://github.com/R-Wang97/Spacecraft-Game" target="_blank">here</a>.</p><br>
+ </div>
+ 
+ <div class="carousel-3-description">
+ 	  <h1>WATWatch</h1>
+      <h2>Tiva Launchpad Project</h2>
+      <p>WATWatch was a project that I worked on with four other classmates in November 2015. Made for our SE101 Course (Introduction to Methods of Software Engineering), WATWatch is a simple functional smartwatch that takes full use of the hardware capabilities of the Tiva Launchpad and Orbit Booster Pack. WATWatch tracks time, steps, and calories burned in a session. In addition to displaying time, WATWatch also features an alarm, timer, and startwatch. It also displays ambient temperature. </p>
+      <p>The code for the project can be found <a href="https://github.com/Zopper9000/se101project" target="_blank">here</a>.</p><br>
  </div>
   
 </body>
