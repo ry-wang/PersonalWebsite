@@ -9,29 +9,23 @@
     font-family: 'Roboto'; 
    	src: url(Fonts/Roboto.ttf);
 }
-
-.nav-wrapper {
-	width: auto;
-	height: 40px;
-	background-color: #DBDBDB;
-}
 #home {
 	float: left;
 	display: inline;
 	list-style-type: none;
-	padding-top: 10px;
-	margin-left: 200px;
+	padding-top: 1%;
+	margin-left: 10%;
 }
 #end {
-	margin-right:200px;
+	margin-right:10%;
 }
 .navigation > li {
 	list-style-type:none;
 	float: right; 
 	display:inline;
-	margin-right:50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-right:5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 
@@ -45,7 +39,7 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  	height: 500px;
+  	height: 50%;
   }
 .carousel-inner > .item > img {
 	width: auto;
@@ -55,33 +49,58 @@
 	top:0;
 	left:0;
 }
+
+/*CSS for Carousel Description 1 and its images*/
 .carousel-1-description {
+	display:block;
 	color:#000000;	
+	text-align:center;
 	position:relative;
 }
-
 .carousel-1-description h1 {	
-	text-align:center;
 	font-family: 'Roboto';
 	font-size:38px;
 }
 .carousel-1-description h2 {
-	text-align:center;
 	font-family: 'Roboto';
 	font-size:22px;
 	padding-bottom:20px;
 }
 .carousel-1-description p {
-	text-align:center;
 	font-family: 'Roboto-Thin';
 	font-size:19px;	
 }
+#m1 {
+	width: 25%;
+	margin: 2%;
+}
+#m2 {
+	margin-top: 2%;
+	margin-bottom:2%;
+	width: 40%;
+}
+#m3 {
+	margin: 2%;
+	width: 25%;
+}
 
+/*CSS for Carousel Slide Two description*/
 .carousel-2-description {
 	display:none;
 	position:relative;
 	text-align:center;
-	font-size:24px;
-	font-family: 'Roboto-Thin';
 	color:#000000;	
+}
+.carousel-2-description h1 {
+	font-family: 'Roboto';
+	font-size:38px;
+}
+.carousel-2-description h2 {
+	font-family: 'Roboto';
+	font-size:22px;
+	padding-bottom:20px;
+}
+.carousel-2-description p {
+	font-family: 'Roboto-Thin';
+	font-size:19px;	
 }

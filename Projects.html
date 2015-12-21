@@ -5,8 +5,6 @@
 <title>Projects</title>
 
 <link href="Projects.css" rel="stylesheet">
-<!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -15,16 +13,14 @@
 
 <body>
 
-<div class="nav-wrapper">
-    <li id = "home"><a href="index.html">Home</a></li>
-    <div class="navigation">
-            <li id="end"><a href="index.html">Contact</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Projects.html">Projects</a></li>
-    </div>
+<li id = "home"><a href="index.html">Home</a></li>
+<div class="navigation">
+        <li id="end"><a href="index.html">Contact</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Projects.html">Projects</a></li>
 </div>
 
-<div id="Carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+<div id="Carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#Carousel" data-slide-to="0" class="active"></li>
@@ -33,47 +29,49 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-      <div class="item active">
+      <div id="1" class="item active">
         <img src="Images/megaman.png" alt="">
       </div>
-
-      <div class="item">
+      <div id="2" class="item">
           <img src="Images/spacecraft.png" alt="">
       </div>  
-   </div>
+  </div>
    
-   <!--Button Controls-->
-    <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+ <!--Button Controls-->
+  <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+  </a>
       
- </div>
+</div>
    
  <!--Specific description for each item--> 
  
  <div class="carousel-1-description">
  	<h1>Megaman</h1>
  	<h2>Java Applet</h2>
- 	<p>This is a game that I made in June of 2015 using Java. It's my own version of Megaman X, and it was designed 	using Object Oriented Programming with Eclipse as my IDE. All photo editing was done using Adobe Photoshop. The game is complete with a menu, instructions, credits, and scoreboard. There is also music that plays in each of the screens. The objective of the game is to reach the end without the player losing all of their health due to the turrets or enemies.<br><br> The program is run as an applet, and makes use of loops, recursion, RNG, key-press input, as well as searching and sorting algorithms. The animations are done with the Graphics class and applet threads. In addition, the scores and stats after the game is sucessfully finished is appended to a textfile. This textfile is read everytime when the user looks at the scoreboard. </p>
-    <img src="Images/m1.png">
-    <img src="Images/m2.png">
+ 	<p>This is a game that I made in June of 2015 using Java. It's my own version of Megaman X, and it was designed 	using Object Oriented Programming with Eclipse as my IDE. All image editing was done using Adobe Photoshop. The game is complete with a menu, instructions, credits, and scoreboard. There is also music that plays in each of the screens. The objective of the game is to reach the end without the player losing all of their health due to the turrets or enemies.<br><br> The program is run as an applet, and makes use of loops, recursion, RNG, key-press input, as well as searching and sorting algorithms. The animations are done with the Graphics class and applet threads. In addition, the scores and stats after the game is sucessfully finished is appended to a textfile. This textfile is read into a table everytime the user looks at the scoreboard. </p>
+    <img id="m1" src="Images/m1.png">
+    <img id="m2" src="Images/m2.png">
+    <img id="m3" src="Images/m3.png">
+    <p>The code for the applet can be found <a href="https://github.com/R-Wang97/Megaman" target="_blank">here</a>.</p><br>
  </div>
 
-
  <div class="carousel-2-description">
-      <h2>Space Shooter</h2>
-      <p>Java Applet</p>
-  </div>
+      <h1>Space Shooter</h1>
+      <h2>Java Applet</h2>
+      <p>This is another applet that I made using Java, and it was my first time using Object Oriented Programming. Coding was done through the Eclipse IDE and image editing was done with Adobe Photoshop. It's a simple space game where the user shoots at comets and alien ships with a limited number of lives and bullets. The alien ships will also shoot in addition to move. The applet also makes use of RNG when determining initial locations of the comets and their type. There are also powerups that periodically appear and are available to the player.</p>
+      <p>The code for the applet can be found <a href="https://github.com/R-Wang97/Spacecraft-Game" target="_blank">here</a>.</p><br>
+ </div>
   
 </body>
 
-<script src="Projects.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="Projects.js"></script>
 
 </html>
