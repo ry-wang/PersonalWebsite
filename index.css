@@ -35,7 +35,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color:#3D5865;
 }
 body {
   color: #fff;
@@ -49,8 +49,7 @@ body {
   width: 100%;
   height: 80%; /* For at least Firefox */
   min-height: 80%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  
 }
 .site-wrapper-inner {
   display: table-cell;
