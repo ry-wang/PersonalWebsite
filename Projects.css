@@ -51,9 +51,9 @@
 }
 
 /*CSS for Carousel Description 1 and its images*/
-.carousel-1-description {
+.carousel-1-description {	
 	display:block;
-	color:#000000;	
+	color:#000;	
 	text-align:center;
 	position:relative;
 }
@@ -89,7 +89,7 @@
 	display:none;
 	position:relative;
 	text-align:center;
-	color:#000000;	
+	color:#000;	
 }
 .carousel-2-description h1 {
 	font-family: 'Roboto';
