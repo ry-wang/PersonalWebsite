@@ -20,6 +20,8 @@
 	margin-right:10%;
 }
 .navigation > li {
+	font-family:'Roboto-Thin';
+	font-size:16px;
 	list-style-type:none;
 	float: right; 
 	display:inline;
@@ -34,7 +36,7 @@
 .carousel {
 	clear: both;
 	height: 500px;
-	margin-bottom: 2%;
+	margin-bottom:2%;
 }
 
 /* Declare heights because of positioning of img element */
@@ -67,7 +69,7 @@
 	padding-bottom:20px;
 }
 .carousel-1-description p {
-	margin: 3%;
+	margin: 1%;
 	font-family: 'Roboto-Thin';
 	font-size:19px;	
 }
@@ -102,7 +104,7 @@
 	padding-bottom:20px;
 }
 .carousel-2-description p {
-	margin: 3%;
+	margin: 1%;
 	font-family: 'Roboto-Thin';
 	font-size:19px;	
 }
@@ -124,9 +126,9 @@
 	padding-bottom:20px;
 }
 .carousel-3-description p {
-	margin: 3%;	
+	margin: 1%;	
 	font-family: 'Roboto-Thin';
-	font-size:19px;	
+	font-size:19px;
 }
 #w1 {
 	margin-left:5%;
