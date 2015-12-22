@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+#home {
+	margin-left:10%;
+	float:left;
+}
+#end {
+	margin-right:10%;
+}
+.navigation > li {
+	font-family:'Roboto-Thin';
+	font-size:16px;
+	list-style-type:none;
+	float: right; 
+	display:inline;
+	margin-right:2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+h1 {
+	clear:both;
+}
+
