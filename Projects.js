@@ -22,6 +22,20 @@ var main = function() {
 			break;
 		}
 	});
+	
+	$(window).scroll(function() {
+		var scrollPosition = $(window).scrollTop();
+		if (scrollPosition > 5) {
+			$('#Carousel').carousel({
+				interval: false
+			});
+		}
+		else {
+			$('#Carousel').carousel({
+				interval: true
+			});
+		}
+	});
 };
 
 $(document).ready(main);
