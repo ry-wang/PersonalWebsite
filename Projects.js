@@ -25,16 +25,29 @@ var main = function() {
 	
 	$(window).scroll(function() {
 		var scrollPosition = $(window).scrollTop();
-		if (scrollPosition > 5) {
-			$('#Carousel').carousel({
-				interval: false
-			});
+		console.log(scrollPosition);
+		if (scrollPosition > 50) {
+			$('#Carousel').carousel('pause');
 		}
 		else {
+			$('#Carousel').carousel('cycle');
 			$('#Carousel').carousel({
-				interval: true
+				interval: 3000
 			});
 		}
+	});
+	//Showing scroll up button
+	$(window).scroll(function() {
+		if ($(window).scrollTop() >= $(document).height() - $(window).height()) {
+			$('#topButton').css('visibility', 'visible');
+		}
+		else {
+			$('#topButton').css('visibility', 'hidden');
+		}
+	});
+	//Scroll to top
+	$('#topButton').click(function() {
+		$("html, body").animate({ scrollTop: 0 }, "slow");
 	});
 };
 
