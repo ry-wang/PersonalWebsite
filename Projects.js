@@ -25,7 +25,6 @@ var main = function() {
 	
 	$(window).scroll(function() {
 		var scrollPosition = $(window).scrollTop();
-		console.log(scrollPosition);
 		if (scrollPosition > 50) {
 			$('#Carousel').carousel('pause');
 		}
