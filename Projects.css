@@ -29,6 +29,11 @@
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
+.navigation:after {
+  content:"";
+  display:table;
+  clear:both;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -36,7 +41,7 @@
 .carousel {
 	clear: both;
 	height: 500px;
-	margin-bottom:2%;
+	padding-bottom:2%;
 }
 
 /* Declare heights because of positioning of img element */

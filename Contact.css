@@ -1,3 +1,54 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: 'Roboto-Thin'; 
+   	src: url(Fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: 'Roboto'; 
+   	src: url(Fonts/Roboto.ttf);
+}
+.navigation:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#home {
+	float: left;
+	display: inline;
+	list-style-type: none;
+	padding-top: 1%;
+	margin-left: 10%;
+}
+#end {
+	margin-right:10%;
+}
+.navigation > li {
+	font-family:'Roboto-Thin';
+	font-size:16px;
+	list-style-type:none;
+	float: right; 
+	display:inline;
+	margin-right:2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.navigation {
+	clear:both;
+}
+h1 {
+	clear:both;
+}
+
+
+
+
+
+footer {
+	text-align:center;
+	font-family: 'Roboto';
+	font-size:16px;	
+}
+

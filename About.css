@@ -1,6 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: 'Roboto-Thin'; 
+   	src: url(Fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: 'Roboto'; 
+   	src: url(Fonts/Roboto.ttf);
+}
+
 #home {
 	margin-left:10%;
 	float:left;
@@ -18,6 +27,12 @@
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
+.navigation:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
 h1 {
 	clear:both;
 }
