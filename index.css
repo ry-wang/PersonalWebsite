@@ -18,7 +18,7 @@
 html,
 body {
   height: 100%;
-  background-color:#333;
+  background-color:#45616F;
 }
 body {
   color: #fff;
@@ -32,14 +32,6 @@ body {
   height: 80%; /* For at least Firefox */
   min-height: 80%;
   
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /* Padding for spacing */
