@@ -10,16 +10,6 @@
    	src: url(Fonts/Roboto.ttf);
 }
 
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
-
 
 /*
  * Base structure
@@ -54,7 +44,9 @@ body {
 
 /* Padding for spacing */
 .inner {
-	margin-bottom: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 3%;
 }
 
 .masthead-nav li a:hover {
@@ -107,38 +99,34 @@ body {
   font-weight: bold;
 }
 .cover-heading {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: 'Roboto';
 	font-weight: lighter;
+	font-size: 45px;
 	letter-spacing: 0.02em;
-	text-transform: capitalize;
 	word-spacing: 0.2px;
 	margin-bottom: -14px;
 }
 .Subtitle {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: 'Roboto-Thin';
+	font-size: 25px;
 	font-variant: small-caps;
 	font-weight: lighter;
 	word-spacing: 0.01em;
 }
-.description {
-	padding-left: 10%;
-	padding-right: 10%;
-}
 .lead {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	padding-left: 4%;
-	padding-right: 4%;
+	font-family: 'Roboto-Thin';
+	font-size: 18px;
+	padding-left: 14%;
+	padding-right: 14%;
 	letter-spacing: 0em;
-	padding-top: 2.1%;
+	padding-top: 2.5%;
+	margin-bottom:7%;
 }
-
 
 #old-site {
-	text-decoration: none;
+	text-decoration: underline;
 	color:#FFFFFF;
 	font-family: 'Roboto-Thin';
-	margin-bottom: 1%;
-	margin-top: 3%;
 }
 
 /*
@@ -149,7 +137,7 @@ body {
 	font-style: normal;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-size: small;
-	padding-top: 1%;
+	padding-top: 2%;
 	padding-bottom: 1%;
 	font-weight: 400;
  }
@@ -179,7 +167,8 @@ body {
 }
 
 #Picture {
-	margin-top: 10%;
+	margin-bottom:-1%;
+	margin-top: 8%;
 	border-radius: 100%;
 	height: 150px;
 	width: 150px;

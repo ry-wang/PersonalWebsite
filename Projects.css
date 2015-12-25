@@ -10,12 +10,6 @@
    	src: url(Fonts/Roboto.ttf);
 }
 
-html,
-body {
-  height: 100%;
-  background-color:#333;
-}
-
 #home {
 	float: left;
 	display: inline;
@@ -51,7 +45,6 @@ body {
 .navigation li a:hover {
 	text-decoration:underline;
 }
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -196,4 +189,8 @@ footer {
 	font-size:16px;
 	background-color:#333;
 	color:#FFF;	
+}
+html, body {
+  height: 100%;
+  background-color:#333;
 }
