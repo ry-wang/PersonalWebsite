@@ -33,8 +33,20 @@
   clear:both;
 }
 
-h1 {
+.main {
+	text-align: center;
+}
+
+.main h1 {
+	font-family: 'Roboto';
+	font-size: 50px;
 	clear:both;
+	padding-top:1%;
+}
+.main p {
+	font-family: 'Roboto-Thin';
+	font-size: 19px;
+	padding-top:3%;
 }
 
 footer {

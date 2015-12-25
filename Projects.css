@@ -9,6 +9,13 @@
     font-family: 'Roboto'; 
    	src: url(Fonts/Roboto.ttf);
 }
+
+html,
+body {
+  height: 100%;
+  background-color:#333;
+}
+
 #home {
 	float: left;
 	display: inline;
@@ -19,7 +26,7 @@
 #end {
 	margin-right:10%;
 }
-.navigation > li {
+.navigation li {
 	font-family:'Roboto-Thin';
 	font-size:16px;
 	list-style-type:none;
@@ -34,11 +41,22 @@
   display:table;
   clear:both;
 }
+.navigation {
+	background-color:#333;
+}
+.navigation li a {
+	text-decoration:none;
+	color:#FFF;
+}
+.navigation li a:hover {
+	text-decoration:underline;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carousel {
+	background-color:#414040;
 	clear: both;
 	height: 500px;
 	padding-bottom:2%;
@@ -60,7 +78,8 @@
 /*CSS for Carousel Description 1 and its images*/
 .carousel-1-description {	
 	display:block;
-	color:#000;	
+	background-color:#333;
+	color:#FFF;	
 	text-align:center;
 	position:relative;
 }
@@ -98,7 +117,8 @@
 	display:none;
 	position:relative;
 	text-align:center;
-	color:#000;	
+	background-color:#333;
+	color:#FFF;		
 }
 .carousel-2-description h1 {
 	font-family: 'Roboto';
@@ -121,7 +141,8 @@
 	display:none;
 	position:relative;
 	text-align:center;
-	color:#000;
+	background-color:#333;
+	color:#FFF;	
 }
 .carousel-3-description h1 {
 	font-family: 'Roboto';
@@ -155,6 +176,7 @@
 }
 
 #topButton {
+	background-color:#FFF;
 	visibility:hidden;
 	padding: 1%;
 	margin-right:5%;
@@ -172,4 +194,6 @@ footer {
 	text-align:center;
 	font-family: 'Roboto';
 	font-size:16px;
+	background-color:#333;
+	color:#FFF;	
 }
