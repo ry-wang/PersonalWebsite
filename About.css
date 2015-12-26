@@ -10,9 +10,8 @@
    	src: url(Fonts/Roboto.ttf);
 }
 
-
-
 html, body {
+	text-align: center;
 	color:#FFF;
 	background-color:#45616F;
 }
@@ -50,26 +49,57 @@ html, body {
 	background-color:#45616F;
 }
 
-.main {
-	text-align: center;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 6%;
+p {
+	font-family: 'Roboto-Thin';
+	font-size: 19px;
+	padding-top:3%;
 }
 
+.main {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 2%;
+}
 .main h1 {
 	font-family: 'Roboto';
 	font-size: 50px;
 	clear:both;
 	padding-top:1%;
 }
-.main p {
-	font-family: 'Roboto-Thin';
-	font-size: 19px;
-	padding-top:3%;
+
+.music {
+	overflow:auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 4%;
+}
+.music p {
+	width:48%;
+}
+#piano {
+	margin-top: 3%;
+	float:right;
+	width: 50%;
+}
+.music h3 {
+	font-family: 'Roboto';
+	font-size: 30px;
+}
+
+
+.awards {
+	clear: both;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 4%;
+}
+.awards h3 {
+	font-family: 'Roboto';
+	font-size: 30px;
 }
 
 #topButton {
+	clear: both;
 	background-color:#FFF;
 	visibility:hidden;
 	padding: 1%;
