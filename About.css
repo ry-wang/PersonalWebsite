@@ -10,10 +10,7 @@
    	src: url(Fonts/Roboto.ttf);
 }
 
-* {
-	color:#FFF;
-	background-color:#45616F;
-}
+
 
 html, body {
 	color:#FFF;
@@ -55,6 +52,9 @@ html, body {
 
 .main {
 	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 6%;
 }
 
 .main h1 {

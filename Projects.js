@@ -25,7 +25,7 @@ var main = function() {
 	
 	$(window).scroll(function() {
 		var scrollPosition = $(window).scrollTop();
-		if (scrollPosition > 50) {
+		if (scrollPosition > 20) {
 			$('#Carousel').carousel('pause');
 		}
 		else {
@@ -45,6 +45,15 @@ var main = function() {
 			$('#topButton').css('visibility', 'hidden');
 		}
 	});
+	
+	$('#topButton').hover(
+		function() {
+			$('.glyphicon-arrow-up').css('color', '#45616F');
+		},
+		function() {
+			$('.glyphicon-arrow-up').css('color', '#000');
+		}
+	);
 	
 	//Scroll to top
 	$('#topButton').click(function() {
