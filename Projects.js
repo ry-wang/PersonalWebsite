@@ -35,6 +35,7 @@ var main = function() {
 			});
 		}
 	});
+	
 	//Showing scroll up button
 	$(window).scroll(function() {
 		if ($(window).scrollTop() >= $(document).height() - $(window).height()) {
@@ -44,6 +45,7 @@ var main = function() {
 			$('#topButton').css('visibility', 'hidden');
 		}
 	});
+	
 	//Scroll to top
 	$('#topButton').click(function() {
 		$("html, body").animate({ scrollTop: 0 }, "slow");

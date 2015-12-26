@@ -10,6 +10,16 @@
    	src: url(Fonts/Roboto.ttf);
 }
 
+* {
+	color:#FFF;
+	background-color:#45616F;
+}
+
+html, body {
+	color:#FFF;
+	background-color:#45616F;
+}
+
 #home {
 	margin-left:10%;
 	float:left;
@@ -32,6 +42,16 @@
   display:table;
   clear:both;
 }
+.navigation li a {
+	text-decoration:none;
+	color:#FFF;
+}
+.navigation li a:hover {
+	text-decoration:underline;
+}
+.navigation {
+	background-color:#45616F;
+}
 
 .main {
 	text-align: center;
@@ -49,7 +69,21 @@
 	padding-top:3%;
 }
 
+#topButton {
+	background-color:#FFF;
+	visibility:hidden;
+	padding: 1%;
+	margin-right:5%;
+	float:right;
+	border:thin solid #000;
+}
+#topButton:hover {
+	cursor:pointer;
+	background-color:#333;
+}
+
 footer {
+	clear: both;
 	margin-bottom: 2%;
 	text-align:center;
 	font-family: 'Roboto';
