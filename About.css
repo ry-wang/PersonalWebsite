@@ -67,16 +67,14 @@ p {
 	padding-top:1%;
 }
 
-.music {
+.content {
 	overflow:auto;
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-bottom: 4%;
 }
-.music p {
-	width:48%;
-}
 #piano {
+	margin-left:3%;
 	margin-top: 3%;
 	float:right;
 	width: 50%;
