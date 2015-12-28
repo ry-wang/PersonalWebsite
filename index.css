@@ -19,8 +19,6 @@ html,
 body {
   height: 100%;
   background-color:#45616F;
-}
-body {
   color: #fff;
   text-align: center;
 }
@@ -39,13 +37,6 @@ body {
 	margin-right: 10%;
 	margin-left: 10%;
 	margin-bottom: 3%;
-}
-
-.masthead-nav li a:hover {
-	text-decoration:underline;
-}
-.masthead-brand:hover {
-	text-decoration:underline;
 }
 
 #home {

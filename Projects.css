@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* General CSS*/
 @font-face {
     font-family: 'Roboto-Thin'; 
    	src: url(Fonts/Roboto-Thin.ttf);
@@ -9,18 +10,22 @@
     font-family: 'Roboto'; 
    	src: url(Fonts/Roboto.ttf);
 }
+html, body {
+  background-color:#45616F;
+  text-align:center;
+  color:#FFF;
+}
+/*--------------------------------------------------------*/
 
+/* Navigation Bar */
 #home {
 	float: left;
-	display: inline;
-	list-style-type: none;
-	padding-top: 1%;
 	margin-left: 10%;
 }
 #end {
 	margin-right:10%;
 }
-.navigation li {
+.navigation > li {
 	font-family:'Roboto-Thin';
 	font-size:16px;
 	list-style-type:none;
@@ -35,9 +40,6 @@
   display:table;
   clear:both;
 }
-.navigation {
-	background-color:#45616F;
-}
 .navigation li a {
 	text-decoration:none;
 	color:#FFF;
@@ -45,11 +47,10 @@
 .navigation li a:hover {
 	text-decoration:underline;
 }
+/*--------------------------------------------------------*/
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+/* Carousel CSS */
 .carousel {
-	background-color:#45616F;
 	clear: both;
 	height: 500px;
 	padding-bottom:2%;
@@ -68,14 +69,7 @@
 	left:0;
 }
 
-/*CSS for Carousel Description 1 and its images*/
-.carousel-1-description {	
-	display:block;
-	background-color:#45616F;
-	color:#FFF;	
-	text-align:center;
-	position:relative;
-}
+/*CSS for Carousel Description One and its images*/
 .carousel-1-description h1 {	
 	font-family: 'Roboto';
 	font-size:38px;
@@ -104,14 +98,11 @@
 	margin: 2%;
 	width: 25%;
 }
+/*--------------------------------------------------------*/
 
 /*CSS for Carousel Slide Two description*/
 .carousel-2-description {
 	display:none;
-	position:relative;
-	text-align:center;
-	background-color:#45616F;
-	color:#FFF;		
 }
 .carousel-2-description h1 {
 	font-family: 'Roboto';
@@ -128,14 +119,11 @@
 	font-family: 'Roboto-Thin';
 	font-size:19px;	
 }
+/*--------------------------------------------------------*/
 
-/*CSS for Carousel Slide Three description*/
+/*CSS for Carousel Slide Three description and its Images*/
 .carousel-3-description {
 	display:none;
-	position:relative;
-	text-align:center;
-	background-color:#45616F;
-	color:#FFF;	
 }
 .carousel-3-description h1 {
 	font-family: 'Roboto';
@@ -167,7 +155,9 @@
 	margin-right:5%;
 	margin-bottom: 3%;
 }
+/*--------------------------------------------------------*/
 
+/*CSS for Scroll up Button*/
 #topButton {
 	background-color:#FFF;
 	visibility:hidden;
@@ -180,17 +170,11 @@
 	cursor:pointer;
 	background-color:#333;
 }
+/*--------------------------------------------------------*/
 
 footer {
 	clear:right;
 	margin-bottom: 2%;
-	text-align:center;
 	font-family: 'Roboto';
 	font-size:16px;
-	background-color:#45616F;
-	color:#FFF;	
-}
-html, body {
-  height: 100%;
-  background-color:#45616F;
 }
