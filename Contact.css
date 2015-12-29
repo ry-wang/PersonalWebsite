@@ -57,6 +57,40 @@ h1 {
 	margin-bottom: 4%;
 }
 /*--------------------------------------------------------*/
+.header {
+	margin-bottom: 2%;
+	font-family: 'Roboto-Thin';
+	font-size: 19px;
+}
+p {
+	text-align: center;
+	margin-bottom:1.5%;
+}
+a {
+	text-decoration:underline;
+	color: #FFF;
+}
+a:link, a:visited {
+    color: #FFF;
+}
+a:hover {
+	color:#333;
+}
+
+.contact {
+	margin-left: 25%;
+	margin-bottom: 5%;
+	font-family:'Roboto-Thin';
+	font-size: 18px;
+	float: left;
+}
+.contact p {
+	text-align: left;
+}
+.icons img {
+	margin-left: 0.5%;
+	width: 70px;
+}
 
 footer {
 	clear: both;
