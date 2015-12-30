@@ -27,4 +27,12 @@ var main = function() {
 	});
 };
 
+$(document).ready(function() {
+	"use strict";
+	
+	$('#title').animate({opacity:1}, 1000);
+	$('.main').delay(1000).animate({opacity:1}, 1000);
+	$('.content').delay(1000).animate({opacity:1}, 1000);
+});
+
 $(document).ready(main);

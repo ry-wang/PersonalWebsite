@@ -55,20 +55,22 @@ p {
 	font-size: 19px;
 	padding-top:3%;
 }
-
-.main {
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 2%;
-}
-.main h1 {
+#title {
+	opacity:0;
 	font-family: 'Roboto';
 	font-size: 50px;
 	clear:both;
 	padding-top:1%;
 }
+.main {
+	opacity:0;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 2%;
+}
 
 .content {
+	opacity:0;
 	overflow:auto;
 	margin-left: 15%;
 	margin-right: 15%;
