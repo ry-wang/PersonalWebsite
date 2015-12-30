@@ -22,4 +22,5 @@ $(document).ready(function() {
 	
 	$(window).click(stopAnimation);
 	$(window).scroll(stopAnimation);
+	$(window).keypress(stopAnimation);
 });
