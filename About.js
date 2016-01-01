@@ -1,4 +1,18 @@
 // JavaScript Document
+
+function stopAnimation() {
+	"use strict";
+	
+	$('#title').stop(true, true);
+	$('#title').css('opacity', '1');
+	
+	$('.main').stop(true, true);
+	$('.main').css('opacity', '1');
+	
+	$('.content').stop(true, true);
+	$('.content').css('opacity', '1');
+}
+
 var main = function() {
 	"use strict";
 	
@@ -29,6 +43,10 @@ var main = function() {
 
 $(document).ready(function() {
 	"use strict";
+	
+	$(window).click(stopAnimation);
+	$(window).keypress(stopAnimation);
+	$(window).scroll(stopAnimation);
 	
 	$('#title').animate({opacity:1}, 1000);
 	$('.main').delay(1000).animate({opacity:1}, 1000);
