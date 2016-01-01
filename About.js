@@ -39,6 +39,7 @@ var main = function() {
 	$('#topButton').click(function() {
 		$("html, body").animate({ scrollTop: 0 }, "slow");
 	});
+	
 };
 
 $(document).ready(function() {
