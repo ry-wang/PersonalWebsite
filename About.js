@@ -26,6 +26,12 @@ var main = function() {
 		}
 	});
 	
+	$(window).scroll(function() {
+		var elementTop = $('#awards').offset().top;
+		var elementBotom = $('#awards').offset().top + $('#awards').outerHeight();
+		var screenBottom = $(window).scrollTop() + $(window).height();
+	});
+	
 	$('#topButton').hover(
 		function() {
 			$('.glyphicon-arrow-up').css('color', '#45616F');
