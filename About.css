@@ -94,6 +94,7 @@ p {
 	clear: both;
 	margin-left: 15%;
 	margin-right: 15%;
+	opacity: 0;
 }
 #awards h3 {
 	text-decoration:underline;
