@@ -32,12 +32,11 @@ var main = function() {
 		var screenBottom = $(window).scrollTop() + $(window).height();
 		
 		if ((screenBottom > elementTop)) {
-			console.log(1);
 			$('#awards').animate({opacity:1}, 1000);
 		}
 		else {
-			console.log(2);
 			$('#awards').css('opacity', '0');
+			$('#awards').stop(true, true);
 		}
 	});
 	
@@ -62,7 +61,6 @@ $(document).ready(function() {
 	
 	$(window).click(stopAnimation);
 	$(window).keypress(stopAnimation);
-	console.log(10);
 	$(window).scroll(stopAnimation);
 	
 	$('#title').animate({opacity:1}, 1000);
