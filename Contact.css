@@ -51,6 +51,7 @@ html, body {
 
 /*Content*/
 h1 {
+	opacity: 0;
 	font-family:'Roboto';
 	font-size:50px;
 	clear:both;
@@ -58,6 +59,7 @@ h1 {
 }
 /*--------------------------------------------------------*/
 .header {
+	opacity: 0;
 	margin-bottom: 4%;
 	font-family: 'Roboto-Thin';
 	font-size: 19px;
@@ -79,6 +81,7 @@ a:hover {
 .info {
 	overflow:auto;
 	margin-bottom: 5%;
+	opacity: 0;
 }
 
 .contact {
