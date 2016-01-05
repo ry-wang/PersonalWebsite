@@ -84,7 +84,7 @@ body {
 	opacity:0;
 	font-family: 'Roboto';
 	font-weight: lighter;
-	font-size: 45px;
+	font-size: 48px;
 	letter-spacing: 0.02em;
 	word-spacing: 0.2px;
 	margin-bottom: -14px;
@@ -92,7 +92,7 @@ body {
 .Subtitle {
 	opacity:0;
 	font-family: 'Roboto-Thin';
-	font-size: 25px;
+	font-size: 28px;
 	font-variant: small-caps;
 	font-weight: lighter;
 	word-spacing: 0.01em;
