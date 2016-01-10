@@ -38,6 +38,16 @@ var main = function() {
 			$('#awards').css('opacity', '0');
 			$('#awards').stop(true, true);
 		}
+		
+		//Fade in for Volunteer Section
+		elementTop = $('#volunteer').offset().top;
+		if ((screenBottom > elementTop)) {
+			$('#volunteer').animate({opacity:1}, 1000);
+		}
+		else {
+			$('#volunteer').css('opacity', '0');
+			$('#volunteer').stop(true, true);
+		}
 	});
 	
 	$('#topButton').hover(

@@ -49,6 +49,14 @@ html, body {
 }
 /*--------------------------------------------------------*/
 
+h3 {
+	text-decoration:underline;
+	font-family: 'Roboto';
+	font-size: 34px;
+	margin-top: -1.5%;
+	margin-bottom: 3.5%;
+}
+
 /*About Me*/
 p {
 	font-family: 'Roboto-Thin';
@@ -83,10 +91,6 @@ p {
 	float:right;
 	width: 50%;
 }
-.music h3 {
-	font-family: 'Roboto';
-	font-size: 30px;
-}
 /*--------------------------------------------------------*/
 
 /*Awards and Achievements Section*/
@@ -96,18 +100,28 @@ p {
 	margin-right: 15%;
 	opacity: 0;
 }
-#awards h3 {
-	text-decoration:underline;
-	font-family: 'Roboto';
-	font-size: 34px;
-	margin-top: -1.5%;
-	margin-bottom: 3.5%;
-}
 #awards h4 {
 	font-size:22px;
 }
 #awards p {
 	margin-top: -3%;
+	margin-bottom: 4%;	
+}
+/*--------------------------------------------------------*/
+
+/*Volunteer Experience Section*/
+#volunteer {
+	opacity: 0;
+	clear:both;
+	padding-top:3%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#volunteer h4 {
+	font-size:22px;
+}
+#volunteer p {
+	margin-top: -2%;
 	margin-bottom: 4%;	
 }
 /*--------------------------------------------------------*/
