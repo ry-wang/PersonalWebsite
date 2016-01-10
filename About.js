@@ -31,6 +31,7 @@ var main = function() {
 		//var elementBottom = $('#awards').offset().top + $('#awards').outerHeight();
 		var screenBottom = $(window).scrollTop() + $(window).height();
 		
+		//Fade in for Awards/Achievements Section
 		if ((screenBottom > elementTop)) {
 			$('#awards').animate({opacity:1}, 1000);
 		}
