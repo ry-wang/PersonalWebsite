@@ -15,6 +15,21 @@ html, body {
   text-align:center;
   color:#FFF;
 }
+h1 {
+	font-family: 'Roboto';
+	font-size:38px;
+}
+h2 {
+	font-family: 'Roboto';
+	font-size:22px;
+	padding-bottom:1.5%;
+}
+p {
+	margin-right: 15%;	
+	margin-left: 15%;	
+	font-family: 'Roboto-Thin';
+	font-size:19px;	
+}
 /*--------------------------------------------------------*/
 
 /* Navigation Bar */
@@ -68,31 +83,15 @@ html, body {
 	top:0;
 	left:0;
 }
-
-/*CSS for Carousel Description One and its images*/
-.carousel-1-description h1 {	
-	font-family: 'Roboto';
-	font-size:38px;
-}
-.carousel-1-description h2 {
-	font-family: 'Roboto';
-	font-size:22px;
-	padding-bottom:20px;
-}
-.carousel-1-description p {
-	margin-right: 10%;	
-	margin-left: 10%;	
-	font-family: 'Roboto-Thin';
-	font-size:19px;	
-}
+/*CSS for Carousel Description One Images*/
 #m1 {
-	width: 25%;
+	width: 28%;
 	margin: 2%;
 }
 #m2 {
 	margin-top: 2%;
 	margin-bottom:2%;
-	width: 38%;
+	width: 30%;
 }
 #m3 {
 	margin: 2%;
@@ -104,41 +103,11 @@ html, body {
 .carousel-2-description {
 	display:none;
 }
-.carousel-2-description h1 {
-	font-family: 'Roboto';
-	font-size:38px;
-}
-.carousel-2-description h2 {
-	font-family: 'Roboto';
-	font-size:22px;
-	padding-bottom:20px;
-}
-.carousel-2-description p {
-	margin-right: 10%;	
-	margin-left: 10%;	
-	font-family: 'Roboto-Thin';
-	font-size:19px;	
-}
 /*--------------------------------------------------------*/
 
 /*CSS for Carousel Slide Three description and its Images*/
 .carousel-3-description {
 	display:none;
-}
-.carousel-3-description h1 {
-	font-family: 'Roboto';
-	font-size:38px;
-}
-.carousel-3-description h2 {
-	font-family: 'Roboto';
-	font-size:22px;
-	padding-bottom:20px;
-}
-.carousel-3-description p {
-	margin-right: 10%;	
-	margin-left: 10%;	
-	font-family: 'Roboto-Thin';
-	font-size:19px;
 }
 #w1 {
 	margin-left:5%;
@@ -176,5 +145,5 @@ footer {
 	clear:right;
 	margin-bottom: 2%;
 	font-family: 'Roboto';
-	font-size:16px;
+	font-size:15px;
 }

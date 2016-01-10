@@ -86,7 +86,7 @@ body {
 	font-weight: lighter;
 	font-size: 48px;
 	letter-spacing: 0.02em;
-	word-spacing: 0.2px;
+	word-spacing: 0.15px;
 	margin-bottom: -14px;
 }
 .Subtitle {
@@ -103,11 +103,9 @@ body {
 	font-size: 18px;
 	padding-left: 16%;
 	padding-right: 16%;
-	letter-spacing: 0em;
 	padding-top: 1.5%;
-	margin-bottom:7%;
+	margin-bottom:5%;
 }
-
 #old-site {
 	text-decoration: underline;
 	color:#FFFFFF;
@@ -118,10 +116,8 @@ body {
  * Footer
  */
  footer {
-	text-align: center;
-	font-style: normal;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-size: small;
+	font-family: 'Roboto';
+	font-size: 15px;
 	padding-top: 2%;
 	padding-bottom: 1%;
 	font-weight: 400;

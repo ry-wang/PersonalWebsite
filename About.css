@@ -16,6 +16,13 @@ html, body {
 	color:#FFF;
 	background-color:#45616F;
 }
+p, h4, h3 {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+h4 {
+	font-size:22px;
+}
 
 /* Navigation Bar */
 #home {
@@ -72,36 +79,28 @@ p {
 }
 .main {
 	opacity:0;
-	margin-left: 15%;
-	margin-right: 15%;
 	margin-bottom: 2%;
 }
 
 .content {
 	opacity:0;
 	overflow:auto;
-	margin-left: 15%;
-	margin-right: 15%;
 	margin-bottom: 4%;
 }
 #piano {
 	margin-left:3%;
 	margin-top: 3%;
+	margin-right: 15%;
 	margin-bottom:2%;
 	float:right;
-	width: 50%;
+	width: 40%;
 }
 /*--------------------------------------------------------*/
 
 /*Awards and Achievements Section*/
 #awards {
 	clear: both;
-	margin-left: 15%;
-	margin-right: 15%;
 	opacity: 0;
-}
-#awards h4 {
-	font-size:22px;
 }
 #awards p {
 	margin-top: -3%;
@@ -114,11 +113,6 @@ p {
 	opacity: 0;
 	clear:both;
 	padding-top:3%;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-#volunteer h4 {
-	font-size:22px;
 }
 #volunteer p {
 	margin-top: -2%;
@@ -145,7 +139,6 @@ p {
 footer {
 	clear: both;
 	margin-bottom: 2%;
-	text-align:center;
 	font-family: 'Roboto';
 	font-size:16px;
 }
