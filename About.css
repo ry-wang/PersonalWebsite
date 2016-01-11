@@ -69,6 +69,7 @@ p {
 	font-family: 'Roboto-Thin';
 	font-size: 19px;
 	padding-top:3%;
+	margin-bottom:-1%;
 }
 #title {
 	opacity:0;
@@ -91,7 +92,7 @@ p {
 	margin-left:3%;
 	margin-top: 3%;
 	margin-right: 15%;
-	margin-bottom:2%;
+	
 	float:right;
 	width: 40%;
 }
@@ -104,7 +105,7 @@ p {
 }
 #awards p {
 	margin-top: -3%;
-	margin-bottom: 4%;	
+	margin-bottom: 2.5%;	
 }
 /*--------------------------------------------------------*/
 
@@ -115,8 +116,8 @@ p {
 	padding-top:3%;
 }
 #volunteer p {
-	margin-top: -2%;
-	margin-bottom: 4%;	
+	margin-top: -2.1%;
+	margin-bottom: 2.5%;	
 }
 /*--------------------------------------------------------*/
 
