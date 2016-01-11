@@ -60,16 +60,14 @@ h3 {
 	text-decoration:underline;
 	font-family: 'Roboto';
 	font-size: 34px;
-	margin-top: -1.5%;
-	margin-bottom: 3.5%;
+	margin-bottom: 2.5%;
 }
 
 /*About Me*/
 p {
 	font-family: 'Roboto-Thin';
 	font-size: 19px;
-	padding-top:3%;
-	margin-bottom:-1%;
+	padding-top:2%;
 }
 #title {
 	opacity:0;
@@ -80,19 +78,19 @@ p {
 }
 .main {
 	opacity:0;
-	margin-bottom: 2%;
+	margin-bottom: 1%;
 }
 
 .content {
 	opacity:0;
 	overflow:auto;
-	margin-bottom: 4%;
+	margin-bottom: 2.5%;
 }
 #piano {
 	margin-left:3%;
-	margin-top: 3%;
+	margin-top: 2%;
 	margin-right: 15%;
-	
+	margin-bottom: 2%;
 	float:right;
 	width: 40%;
 }
@@ -102,20 +100,25 @@ p {
 #awards {
 	clear: both;
 	opacity: 0;
+	margin-bottom:2%;
 }
 #awards p {
-	margin-top: -3%;
-	margin-bottom: 2.5%;	
+	font-family: 'Roboto-Thin';
+	font-size: 19px;
+	margin-top: -2.1%;
+	margin-bottom: 2.5%;		
 }
 /*--------------------------------------------------------*/
 
 /*Volunteer Experience Section*/
 #volunteer {
+	padding-top:0.5%;
 	opacity: 0;
 	clear:both;
-	padding-top:3%;
 }
 #volunteer p {
+	font-family: 'Roboto-Thin';
+	font-size: 19px;
 	margin-top: -2.1%;
 	margin-bottom: 2.5%;	
 }
