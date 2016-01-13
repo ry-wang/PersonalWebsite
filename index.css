@@ -26,9 +26,7 @@ body {
 .site-wrapper {
   display: table;
   width: 100%;
-  height: 80%; /* For at least Firefox */
-  min-height: 80%;
-  
+  height: 70%; /* For at least Firefox */
 }
 
 /* Padding for spacing */
@@ -106,7 +104,7 @@ body {
 	padding-top: 1.5%;
 	margin-bottom:5%;
 }
-#old-site {
+#resume {
 	text-decoration: underline;
 	color:#FFFFFF;
 	font-family: 'Roboto-Thin';
