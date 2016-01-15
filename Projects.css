@@ -129,6 +129,12 @@ p {
 }
 /*--------------------------------------------------------*/
 
+/*CSS for Carousel Slide Four description*/
+.carousel-4-description {
+	display:none;
+}
+/*--------------------------------------------------------*/
+
 /*CSS for Scroll up Button*/
 #topButton {
 	background-color:#FFF;
@@ -143,6 +149,32 @@ p {
 	background-color:#333;
 }
 /*--------------------------------------------------------*/
+
+#button-nav {
+	padding-top: 3%;
+	margin-bottom: 3%;
+	clear:both;
+}
+.glyphicon-arrow-left {
+	padding:1%;
+	background-color:#FFF;
+	border:thin solid #000;
+	margin-right: 5%;
+}
+.glyphicon-arrow-right {
+	padding:1%;
+	background-color:#FFF;
+	border:thin solid #000;
+	margin-left: 5%;
+}
+.glyphicon-arrow-left:hover {
+	cursor:pointer;
+	background-color:#333;
+}
+.glyphicon-arrow-right:hover {
+	cursor:pointer;
+	background-color:#333;
+}
 
 footer {
 	clear:right;

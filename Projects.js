@@ -64,6 +64,31 @@ var main = function() {
 		}
 	);
 	
+	$('.glyphicon-arrow-left').hover(
+		function() {
+			$(this).css('color', '#45616F');
+		},
+		function() {
+			$(this).css('color', '#000');
+		}
+	);
+	
+	$('.glyphicon-arrow-right').hover(
+		function() {
+			$(this).css('color', '#45616F');
+		},
+		function() {
+			$(this).css('color', '#000');
+		}
+	);
+	
+	$('.glyphicon-arrow-left').click(function() {
+		window.scrollTo(0,0);
+	});
+	$('.glyphicon-arrow-right').click(function() {
+		window.scrollTo(0,0);
+	});
+	
 	//Scroll to top
 	$('#topButton').click(function() {
 		$("html, body").animate({ scrollTop: 0 }, "slow");
