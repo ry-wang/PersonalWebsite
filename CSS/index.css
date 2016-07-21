@@ -14,7 +14,6 @@
  * Base structure
  */
 
-html,
 body {
   height: 100%;
   background-color:#45616F;
@@ -95,6 +94,7 @@ body {
 	font-family: 'Roboto';
 	font-size: 15px;
 	margin-top: 12%;
+	margin-bottom: 2%;
 	font-weight: 400;
  }
 
