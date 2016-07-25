@@ -35,43 +35,78 @@ p {
 }
 /*--------------------------------------------------------*/
 
-/* Navigation Bar */
-#home {
-	float: left;
-	margin-left: 10%;
+/*Navbar Styling*/
+.navbar {
+	background-color: #fff;
+	margin-bottom: 0px;
 }
-#end {
-	margin-right:10%;
+
+.navbar-default .navbar-toggle {
+    border-color: #45616F;
 }
-.navigation > li {
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #45616F;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #45616F;
+}
+
+.navbar-toggle {
+	margin-left: 6%;
+	background-color:#fff;
+}
+.navbar-nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #45616F;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #45616F;
+    text-decoration:underline;
+}
+.navbar li {
 	font-family:'Roboto-Thin';
-	font-size:16px;
-	list-style-type:none;
-	float: right; 
-	display:inline;
-	margin-right:1.5%;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	font-size:1.3vw;
 }
-.navigation:after {
-  content:"";
-  display:table;
-  clear:both;
+/*Styling of the expanded navbar*/
+@media (min-width: 768px) {
+	.navbar {
+		border-radius: 0px;
+	}
+	.navbar-nav {
+	    float: left;
+	    margin-left: 7%;
+	}
+	.navbar-right {
+    	float: right!important;
+    	margin-right: 7%;
+    	margin-left: 0%;
+	}
 }
-.navigation li a {
-	text-decoration:none;
-	color:#FFF;
+/*Some styling of the collapsed navbar*/
+@media (max-width: 768px) {
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-right {
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}
 }
-.navigation li a:hover {
-	text-decoration:underline;
-}
+
 /*--------------------------------------------------------*/
 
 /* Carousel CSS */
 .carousel {
 	clear: both;
-	height: 500px;
-	padding-bottom:2%;
+	width: 100%;
+	height: auto;
+	/*padding-bottom:2%;*/
 }
 
 /* Declare heights because of positioning of img element */
@@ -113,19 +148,37 @@ p {
 	display:none;
 }
 #w1 {
-	margin-left:5%;
-	width: 20%;
-	margin-right:2%;
+	width: 100%;
+	margin-bottom: 3%;
 }
 #w2 {
-	width: 25%;
+	width: 100%;
+	margin-bottom: 3%;
 }
 #w3 {
-	margin-top: 2%;
-	margin-left:2%;
-	width: 30%;
-	margin-right:5%;
+	width: 100%;
 	margin-bottom: 3%;
+}
+.wwImages {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+@media(min-width: 768px) {
+	#w1 {
+		width: 100%;
+		margin-bottom: 3%;
+		margin-top: 5%;
+	}
+	#w2 {
+		width: 100%;
+		margin-bottom: 3%;
+		margin-top: 5%;
+	}
+	#w3 {
+		width: 100%;
+		margin-bottom: 3%;
+		margin-top: 5%;
+	}
 }
 /*--------------------------------------------------------*/
 
@@ -139,6 +192,7 @@ p {
 #topButton {
 	background-color:#FFF;
 	visibility:hidden;
+	clear: both;
 	padding: 1%;
 	margin-right:5%;
 	float:right;
