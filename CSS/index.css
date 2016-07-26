@@ -93,9 +93,9 @@ body {
 	font-family: 'Roboto';
 	font-weight: lighter;
 	font-size: 4vw;
-	word-spacing: 0.15px;
+	word-spacing: 0.15vw;
 	margin-top: 1%;
-	margin-bottom:1.5%;
+	margin-bottom:1.5vh;
 }
 .heading-title {
 	opacity: 0;
@@ -127,8 +127,7 @@ body {
  footer {
 	font-family: 'Roboto';
 	font-size: 1vw;
-	margin-top: 12%;
-	margin-bottom: 2%;
+	margin-top: 15vh;
 	font-weight: 400;
  }
 
