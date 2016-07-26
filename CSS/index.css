@@ -82,7 +82,7 @@ body {
 	opacity:0;
 	font-family: 'Roboto';
 	font-weight: lighter;
-	font-size: 48px;
+	font-size: 2.5vw;
 	word-spacing: 0.15px;
 	margin-top: 1%;
 	margin-bottom:1.5%;
@@ -90,7 +90,7 @@ body {
 .Subtitle {
 	opacity:0;
 	font-family: 'Roboto-Thin';
-	font-size: 28px;
+	font-size: 1.6vw;
 	font-variant: small-caps;
 	font-weight: lighter;
 	word-spacing: 0.01em;
@@ -98,7 +98,7 @@ body {
 .lead {
 	opacity:0;
 	font-family: 'Roboto-Thin';
-	font-size: 18px;
+	font-size: 1.2vw;
 	padding-left: 16%;
 	padding-right: 16%;
 	padding-top: 1.5%;
