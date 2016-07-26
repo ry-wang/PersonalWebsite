@@ -20,19 +20,15 @@ html, body {
 .navbar {
 	background-color: #fff;
 }
-
 .navbar-default .navbar-toggle {
     border-color: #45616F;
 }
-
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	border-color: #45616F;
 }
-
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #45616F;
 }
-
 .navbar-toggle {
 	margin-left: 6%;
 	background-color:#fff;
@@ -41,7 +37,6 @@ html, body {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-
 .navbar-default .navbar-nav>li>a {
     color: #45616F;
 }
@@ -86,10 +81,8 @@ h1 {
 	opacity: 0;
 	font-family:'Roboto';
 	font-size:50px;
-	clear:both;
-	margin-bottom: 3%;
+	margin-bottom: 4vh;
 }
-/*--------------------------------------------------------*/
 .header {
 	opacity: 0;
 	margin-bottom: 6vh;
@@ -102,10 +95,6 @@ h1 {
 	margin-left: 12%;
 	margin-right: 12%;
 }
-/*p {
-	text-align: center;
-	margin-bottom:1.5%;
-}*/
 #resumeLink {
 	text-decoration:underline;
 	color: #FFF;
@@ -116,17 +105,12 @@ h1 {
 #resumeLink:hover {
 	color:#333;
 }
-
 .info {
 	margin-bottom: 15vh;
 }
-
 .contact {
 	font-family:'Roboto-Thin';
 	font-size: 18px;
-}
-.contact p {
-	text-align: center;
 }
 @media(min-width: 800px) {
 	.icons img {
@@ -144,10 +128,9 @@ h1 {
 	}
 }
 
+/*--------------------------------------------------------*/
 footer {
-	clear: both;
-	margin-bottom: 2%;
-	text-align:center;
+	margin-bottom: 2vh;
 	font-family: 'Roboto';
 	font-size:16px;	
 }
