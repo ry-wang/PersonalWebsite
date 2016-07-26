@@ -92,20 +92,20 @@ h1 {
 /*--------------------------------------------------------*/
 .header {
 	opacity: 0;
-	margin-bottom: 4%;
+	margin-bottom: 6vh;
 	font-family: 'Roboto-Thin';
 	font-size: 19px;
 }
 .col-centered {
     display:inline-block;
     float:none;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 12%;
+	margin-right: 12%;
 }
-p {
+/*p {
 	text-align: center;
 	margin-bottom:1.5%;
-}
+}*/
 #resumeLink {
 	text-decoration:underline;
 	color: #FFF;
@@ -118,13 +118,12 @@ p {
 }
 
 .info {
-	margin-bottom: 5vh;
+	margin-bottom: 15vh;
 }
 
 .contact {
 	font-family:'Roboto-Thin';
 	font-size: 18px;
-	/*padding-left: 15%;*/
 }
 .contact p {
 	text-align: center;
@@ -140,7 +139,7 @@ p {
 		margin-bottom: 4vh;
 	}
 	.icons img {
-		width: 10vw;
+		width: 12vw;
 		margin-left: 3%;
 	}
 }
