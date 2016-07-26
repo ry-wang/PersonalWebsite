@@ -34,7 +34,7 @@ html, body {
 }
 
 .navbar-toggle {
-	margin-left: 4%;
+	margin-left: 6%;
 	background-color:#fff;
 }
 .navbar-nav {
@@ -96,6 +96,12 @@ h1 {
 	font-family: 'Roboto-Thin';
 	font-size: 19px;
 }
+.col-centered {
+    display:inline-block;
+    float:none;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 p {
 	text-align: center;
 	margin-bottom:1.5%;
@@ -110,30 +116,33 @@ p {
 #resumeLink:hover {
 	color:#333;
 }
+
 .info {
-	overflow:auto;
-	margin-bottom: 5%;
-	opacity: 0;
+	margin-bottom: 5vh;
 }
 
 .contact {
-	width: 50%;
-	padding-left:20%;
 	font-family:'Roboto-Thin';
 	font-size: 18px;
-	float: left;
+	/*padding-left: 15%;*/
 }
 .contact p {
-	text-align: left;
+	text-align: center;
 }
-.icons {
-	float: right;
-	width: 50%;
-	padding-right:10%;
+@media(min-width: 800px) {
+	.icons img {
+		width: 6vw;
+		margin-left: 3%;
+	}
 }
-.icons img {
-	margin-left: 3%;
-	width: 70px;
+@media(max-width: 800px) {
+	.contact {
+		margin-bottom: 4vh;
+	}
+	.icons img {
+		width: 10vw;
+		margin-left: 3%;
+	}
 }
 
 footer {

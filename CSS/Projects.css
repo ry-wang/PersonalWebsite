@@ -104,22 +104,23 @@ p {
 /* Carousel CSS */
 .carousel {
 	clear: both;
-	width: 100%;
+	width: 100vw;
 	height: auto;
-	/*padding-bottom:2%;*/
+	margin-bottom:2%;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  	height: 500px;
+  	height: auto;
   }
 .carousel-inner > .item > img {
-	width: auto;
-	height: 500px;
+	width: 85vw;
+	height: auto;
 	margin:auto;
-	position: relative;
+	align-self: center;
+	/*position: relative;
 	top:0;
-	left:0;
+	left:0;*/
 }
 /*CSS for Carousel Description One Images*/
 #m1 {
