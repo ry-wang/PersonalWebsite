@@ -105,7 +105,7 @@ p {
 /* Carousel CSS */
 .carousel {
 	/*clear: both;*/
-	width: 100vw;
+	/*width: 100vw;*/
 	height: auto;
 	margin-bottom:2%;
 }
