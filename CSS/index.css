@@ -25,28 +25,19 @@ body {
 .navbar {
 	background-color: #fff;
 }
-
 .navbar-default .navbar-toggle {
     border-color: #45616F;
 }
-
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	border-color: #45616F;
 }
-
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #45616F;
 }
-
 .navbar-toggle {
 	margin-left: 4%;
 	background-color:#fff;
 }
-.navbar-nav {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
 .navbar-default .navbar-nav>li>a {
     color: #45616F;
 }
@@ -70,7 +61,6 @@ body {
 	.navbar-right {
     	float: right!important;
     	margin-right: 7%;
-    	margin-left: 0%;
 	}
 }
 /*Some styling of the collapsed navbar*/
