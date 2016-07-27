@@ -10,6 +10,7 @@
     font-family: 'Roboto'; 
    	src: url(../Fonts/Roboto-Regular.ttf);
 }
+
 html, body {
   background-color:#45616F;
   text-align:center;
@@ -54,7 +55,7 @@ p {
 }
 
 .navbar-toggle {
-	margin-left: 6%;
+	margin-left: 4%;
 	background-color:#fff;
 }
 .navbar-nav {
@@ -103,7 +104,7 @@ p {
 
 /* Carousel CSS */
 .carousel {
-	clear: both;
+	/*clear: both;*/
 	width: 100vw;
 	height: auto;
 	margin-bottom:2%;
@@ -115,12 +116,9 @@ p {
   }
 .carousel-inner > .item > img {
 	width: 85vw;
-	height: auto;
+	/*height: auto;*/
 	margin:auto;
-	align-self: center;
-	/*position: relative;
-	top:0;
-	left:0;*/
+	/*align-self: center;*/
 }
 /*CSS for Carousel Description One Images*/
 #m1 {
@@ -214,13 +212,11 @@ p {
 	padding:1%;
 	background-color:#FFF;
 	border:thin solid #000;
-	margin-right: 5%;
 }
 .glyphicon-arrow-right {
 	padding:1%;
 	background-color:#FFF;
 	border:thin solid #000;
-	margin-left: 5%;
 }
 .glyphicon-arrow-left:hover {
 	cursor:pointer;
