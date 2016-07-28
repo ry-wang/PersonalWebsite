@@ -64,6 +64,10 @@ img {
     color: #45616F;
     text-decoration:underline;
 }
+.navbar-nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 .navbar li {
 	font-family:'Roboto-Thin';
 	font-size:1.3vw;
@@ -115,17 +119,12 @@ img {
 	margin:auto;
 }
 
-/*CSS for Carousel Slide One Images*/
+/*CSS for Images in Carousel Descriptions*/
 @media(max-width: 1000px) {
 	#m1, #m2, #m3 {
 		margin-bottom: 3%;
 		margin-top: 5%;
 	}
-}
-
-/*CSS for Carousel Slide Two description and its Images*/
-.carousel-2-description {
-	display:none;
 }
 @media(max-width: 1000px) {
 	#w1, #w2, #w3 {
@@ -134,15 +133,11 @@ img {
 	}
 }
 
-/*CSS for Carousel Slide Three description*/
-.carousel-3-description {
+/*CSS for Carousel Slide Two description and its Images*/
+.carousel-2-description, .carousel-3-description, .carousel-4-description {
 	display:none;
 }
 
-/*CSS for Carousel Slide Four description*/
-.carousel-4-description {
-	display:none;
-}
 
 /*CSS for Scroll up Button*/
 #topButton {
@@ -154,38 +149,45 @@ img {
 	float:right;
 	border:thin solid #000;
 }
-#topButton:hover {
-	cursor:pointer;
-	background-color:#333;
-}
 
 #button-nav {
 	padding-top: 3%;
 	margin-bottom: 3%;
 	clear:both;
 }
-@media(max-width: 768px) {
-	#button-nav {
-		margin-bottom: 12%;
-	}
-}
+
 .glyphicon-arrow-left {
 	padding:1%;
 	background-color:#FFF;
 	border:thin solid #000;
+	margin-right: 2%;
 }
 .glyphicon-arrow-right {
 	padding:1%;
 	background-color:#FFF;
 	border:thin solid #000;
+	margin-left: 2%;
 }
-.glyphicon-arrow-left:hover {
+.glyphicon-arrow-left:hover, .glyphicon-arrow-right:hover, #topButton:hover {
 	cursor:pointer;
 	background-color:#333;
 }
-.glyphicon-arrow-right:hover {
-	cursor:pointer;
-	background-color:#333;
+
+@media(max-width: 768px) {
+	#button-nav {
+		margin-bottom: 12%;
+	}
+	.glyphicon-arrow-left {
+		padding:3%;
+		margin-right: 5%;
+	}
+	.glyphicon-arrow-right {
+		padding:3%;
+		margin-left: 5%;
+	}
+	#topButton {
+		padding:3%;
+	}
 }
 
 .col-centered {

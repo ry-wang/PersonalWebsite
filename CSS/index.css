@@ -45,6 +45,10 @@ body {
     color: #45616F;
     text-decoration:underline;
 }
+.navbar-nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 .navbar li {
 	font-family:'Roboto-Thin';
 	font-size:1.3vw;
