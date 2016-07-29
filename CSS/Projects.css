@@ -10,6 +10,7 @@
     font-family: 'Roboto'; 
    	src: url(../Fonts/Roboto-Regular.ttf);
 }
+
 html, body {
   background-color:#45616F;
   text-align:center;
@@ -28,152 +29,172 @@ h4 {
 	margin-bottom: 2%;
 }
 p {
-	margin-right: 15%;	
-	margin-left: 15%;	
+	margin-right: 10%;	
+	margin-left: 10%;	
 	font-family: 'Roboto-Thin';
 	font-size:19px;	
 }
+img {
+	width: 100%;
+}
 /*--------------------------------------------------------*/
 
-/* Navigation Bar */
-#home {
-	float: left;
-	margin-left: 10%;
+/*Navbar Styling*/
+.navbar {
+	background-color: #fff;
+	margin-bottom: 0px;
 }
-#end {
-	margin-right:10%;
+.navbar-default .navbar-toggle {
+    border-color: #45616F;
 }
-.navigation > li {
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #45616F;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #45616F;
+}
+.navbar-toggle {
+	margin-left: 4%;
+	background-color:#fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #45616F;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #45616F;
+    text-decoration:underline;
+}
+.navbar-nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navbar li {
 	font-family:'Roboto-Thin';
-	font-size:16px;
-	list-style-type:none;
-	float: right; 
-	display:inline;
-	margin-right:1.5%;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	font-size:1.3vw;
 }
-.navigation:after {
-  content:"";
-  display:table;
-  clear:both;
+/*Styling of the expanded navbar*/
+@media (min-width: 768px) {
+	.navbar {
+		border-radius: 0px;
+	}
+	.navbar-nav {
+	    float: left;
+	    margin-left: 7%;
+	}
+	.navbar-right {
+    	float: right!important;
+    	margin-right: 7%;
+	}
 }
-.navigation li a {
-	text-decoration:none;
-	color:#FFF;
+/*Some styling of the collapsed navbar*/
+@media (max-width: 768px) {
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-right {
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}
 }
-.navigation li a:hover {
-	text-decoration:underline;
+
+.mmImages, .wwImages {
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 3%;
+	margin-top: 3%;
 }
-/*--------------------------------------------------------*/
 
 /* Carousel CSS */
 .carousel {
-	clear: both;
-	height: 500px;
-	padding-bottom:2%;
+	height: auto;
+	margin-bottom:2%;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  	height: 500px;
+  	height: auto;
   }
 .carousel-inner > .item > img {
-	width: auto;
-	height: 500px;
+	width: 85vw;
 	margin:auto;
-	position: relative;
-	top:0;
-	left:0;
 }
-/*CSS for Carousel Description One Images*/
-#m1 {
-	width: 28%;
-	margin: 2%;
-}
-#m2 {
-	margin-top: 2%;
-	margin-bottom:2%;
-	width: 30%;
-}
-#m3 {
-	margin: 2%;
-	width: 25%;
-}
-/*--------------------------------------------------------*/
 
-/*CSS for Carousel Slide Two description*/
-.carousel-2-description {
+/*CSS for Images in Carousel Descriptions*/
+@media(max-width: 1000px) {
+	#m1, #m2, #m3 {
+		margin-bottom: 3%;
+		margin-top: 5%;
+	}
+}
+@media(max-width: 1000px) {
+	#w1, #w2, #w3 {
+		margin-bottom: 3%;
+		margin-top: 5%;
+	}
+}
+
+/*CSS for Carousel Slide Two description and its Images*/
+.carousel-2-description, .carousel-3-description, .carousel-4-description {
 	display:none;
 }
-/*--------------------------------------------------------*/
 
-/*CSS for Carousel Slide Three description and its Images*/
-.carousel-3-description {
-	display:none;
-}
-#w1 {
-	margin-left:5%;
-	width: 20%;
-	margin-right:2%;
-}
-#w2 {
-	width: 25%;
-}
-#w3 {
-	margin-top: 2%;
-	margin-left:2%;
-	width: 30%;
-	margin-right:5%;
-	margin-bottom: 3%;
-}
-/*--------------------------------------------------------*/
-
-/*CSS for Carousel Slide Four description*/
-.carousel-4-description {
-	display:none;
-}
-/*--------------------------------------------------------*/
 
 /*CSS for Scroll up Button*/
 #topButton {
 	background-color:#FFF;
 	visibility:hidden;
+	clear: both;
 	padding: 1%;
 	margin-right:5%;
 	float:right;
 	border:thin solid #000;
 }
-#topButton:hover {
-	cursor:pointer;
-	background-color:#333;
-}
-/*--------------------------------------------------------*/
 
 #button-nav {
 	padding-top: 3%;
 	margin-bottom: 3%;
 	clear:both;
 }
+
 .glyphicon-arrow-left {
 	padding:1%;
 	background-color:#FFF;
 	border:thin solid #000;
-	margin-right: 5%;
+	margin-right: 2%;
 }
 .glyphicon-arrow-right {
 	padding:1%;
 	background-color:#FFF;
 	border:thin solid #000;
-	margin-left: 5%;
+	margin-left: 2%;
 }
-.glyphicon-arrow-left:hover {
+.glyphicon-arrow-left:hover, .glyphicon-arrow-right:hover, #topButton:hover {
 	cursor:pointer;
 	background-color:#333;
 }
-.glyphicon-arrow-right:hover {
-	cursor:pointer;
-	background-color:#333;
+
+@media(max-width: 768px) {
+	#button-nav {
+		margin-bottom: 12%;
+	}
+	.glyphicon-arrow-left {
+		padding:3%;
+		margin-right: 5%;
+	}
+	.glyphicon-arrow-right {
+		padding:3%;
+		margin-left: 5%;
+	}
+	#topButton {
+		padding:3%;
+	}
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 footer {

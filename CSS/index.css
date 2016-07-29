@@ -14,7 +14,6 @@
  * Base structure
  */
 
-html,
 body {
   height: 100%;
   background-color:#45616F;
@@ -22,87 +21,98 @@ body {
   text-align: center;
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 70%; /* For at least Firefox */
+/*Navbar Styling*/
+.navbar {
+	background-color: #fff;
 }
-
-/* Padding for spacing */
-.inner {
-	margin-right: 10%;
-	margin-left: 10%;
-	margin-bottom: 3%;
+.navbar-default .navbar-toggle {
+    border-color: #45616F;
 }
-
-#home {
-	margin-left:10%;
-	float:left;
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #45616F;
 }
-#end {
-	margin-right:10%;
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #45616F;
 }
-.navigation > li {
+.navbar-toggle {
+	margin-left: 4%;
+	background-color:#fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #45616F;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #45616F;
+    text-decoration:underline;
+}
+.navbar-nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navbar li {
 	font-family:'Roboto-Thin';
-	font-size:16px;
-	list-style-type:none;
-	float: right; 
-	display:inline;
-	margin-right:1.5%;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	font-size:1.3vw;
 }
-.navigation:after {
-  content:"";
-  display:table;
-  clear:both;
+/*Styling of the expanded navbar*/
+@media (min-width: 768px) {
+	.navbar {
+		border-radius: 0px;
+	}
+	.navbar-nav {
+	    float: left;
+	    margin-left: 7%;
+	}
+	.navbar-right {
+    	float: right!important;
+    	margin-right: 7%;
+	}
 }
-.navigation li a {
-	text-decoration:none;
-	color:#FFF;
+/*Some styling of the collapsed navbar*/
+@media (max-width: 768px) {
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-right {
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}
 }
-.navigation li a:hover {
-	text-decoration:underline;
-}
-
 
 /*
- * Cover
+ * Homepage Content Styling
  */
 
-.cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-.cover-heading {
-	opacity:0;
+.heading {
+	opacity: 0;
 	font-family: 'Roboto';
 	font-weight: lighter;
-	font-size: 2.5vw;
-	word-spacing: 0.15px;
+	font-size: 4vw;
+	word-spacing: 0.15vw;
 	margin-top: 1%;
-	margin-bottom:1.5%;
+	margin-bottom:1.5vh;
 }
-.Subtitle {
-	opacity:0;
+.heading-title {
+	opacity: 0;
 	font-family: 'Roboto-Thin';
-	font-size: 1.6vw;
+	font-size: 2.3vw;
 	font-variant: small-caps;
 	font-weight: lighter;
 	word-spacing: 0.01em;
 }
-.lead {
-	opacity:0;
+.heading-description {
+	opacity: 0;
 	font-family: 'Roboto-Thin';
-	font-size: 1.2vw;
-	padding-left: 16%;
-	padding-right: 16%;
-	padding-top: 1.5%;
-	margin-bottom:5%;
+	font-size: 1.4vw;
+	margin-top: 2.50%;
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /*
@@ -110,41 +120,18 @@ body {
  */
  footer {
 	font-family: 'Roboto';
-	font-size: 15px;
-	padding-top: 2%;
-	padding-bottom: 1%;
+	font-size: 1vw;
+	margin-top: 15vh;
 	font-weight: 400;
  }
 
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
 #Picture {
-	margin-bottom:0.25%;
+	margin-bottom: 2%;
 	margin-top: 8%;
 	border-radius: 100%;
-	height: 150px;
+/*	height: 150px;
 	width: 145px;
+*/	max-width: 17%;
+    height: auto;
 	border: medium solid #DBDADA;
 }
