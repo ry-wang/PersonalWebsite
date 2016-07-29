@@ -46,7 +46,7 @@ html, body {
 }
 .navbar li {
 	font-family:'Roboto-Thin';
-	font-size:1.3vw;
+	font-size: 18px;
 }
 /*Styling of the expanded navbar*/
 @media (min-width: 768px) {
