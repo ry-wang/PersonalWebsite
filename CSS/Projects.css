@@ -188,6 +188,10 @@ img {
 	#topButton {
 		padding:3%;
 	}
+	p {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
 
 .col-centered {

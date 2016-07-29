@@ -21,7 +21,7 @@ p, h4, h3 {
 	margin-right: 15%;
 }
 h4 {
-	font-size:1.9vw;
+	font-size: 22px;
 }
 
 /* Navigation Bar */
@@ -59,7 +59,7 @@ h4 {
 }
 .navbar li {
 	font-family:'Roboto-Thin';
-	font-size:1.3vw;
+	font-size: 18px;
 }
 /*Styling of the expanded navbar*/
 @media (min-width: 768px) {
@@ -91,20 +91,20 @@ h4 {
 h3 {
 	text-decoration:underline;
 	font-family: 'Roboto';
-	font-size: 2.3vw;
+	font-size: 34px;
 	margin-bottom: 2.5%;
 }
 
 /*About Me*/
 p {
 	font-family: 'Roboto-Thin';
-	font-size: 1.5vw;
+	font-size: 19px;
 	padding-top:2%;
 }
 #title {
 	opacity:0;
 	font-family: 'Roboto';
-	font-size: 4vw;
+	font-size: 50px;
 	clear:both;
 	padding-top:1%;
 }
@@ -134,6 +134,10 @@ p {
 		margin-left: 10%;
 		margin-right: 10%;
 	}
+	p, h4, h3 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
 /*--------------------------------------------------------*/
 
@@ -145,7 +149,7 @@ p {
 }
 #awards p {
 	font-family: 'Roboto-Thin';
-	font-size: 1.5vw;
+	font-size: 19px;
 	margin-top: -1.8%;
 	margin-bottom: 2.5%;		
 }
@@ -159,7 +163,7 @@ p {
 }
 #volunteer p {
 	font-family: 'Roboto-Thin';
-	font-size: 1.5vw;
+	font-size: 19px;
 	margin-top: -1.8%;
 	margin-bottom: 2.5%;	
 }
@@ -186,7 +190,7 @@ p {
  */
  footer {
 	font-family: 'Roboto';
-	font-size: 1vw;
+	font-size: 16px;
 	margin-top: 12%;
 	margin-bottom: 2%;
 	font-weight: 400;
