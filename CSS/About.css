@@ -105,7 +105,6 @@ p {
 	opacity:0;
 	font-family: 'Roboto';
 	font-size: 50px;
-	clear:both;
 	padding-top:1%;
 }
 .main {
@@ -143,7 +142,6 @@ p {
 
 /*Awards and Achievements Section*/
 #awards {
-	clear: both;
 	opacity: 0;
 	margin-bottom:2%;
 }
@@ -159,7 +157,6 @@ p {
 #volunteer {
 	padding-top:0.5%;
 	opacity: 0;
-	clear:both;
 }
 #volunteer p {
 	font-family: 'Roboto-Thin';
@@ -190,9 +187,26 @@ p {
  */
  footer {
 	font-family: 'Roboto';
-	font-size: 16px;
+	font-size: 14px;
 	margin-top: 12%;
 	margin-bottom: 2%;
 	font-weight: 400;
+	clear: both;
  }
 
+@media(max-width: 768px) {
+	h3 {
+		font-size: 26px;
+	}
+	#awards p, #volunteer p {
+		margin-top: 3%;
+		margin-bottom: 5%;
+	}
+	#title {
+		margin-bottom: 5%;
+	}
+	#topButton {
+		padding:3%;
+		margin-bottom: 5%;
+	}
+}

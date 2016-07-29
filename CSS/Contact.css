@@ -92,8 +92,6 @@ h1 {
 .col-centered {
     display:inline-block;
     float:none;
-	margin-left: 12%;
-	margin-right: 12%;
 }
 #resumeLink {
 	text-decoration:underline;
@@ -132,6 +130,6 @@ h1 {
 footer {
 	margin-bottom: 2vh;
 	font-family: 'Roboto';
-	font-size:16px;	
+	font-size:14px;	
 }
 
