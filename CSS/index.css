@@ -88,7 +88,7 @@ body {
 	font-weight: lighter;
 	font-size: 44px;
 	word-spacing: 0.15vw;
-	margin-top: 1%;
+	margin-top: 0px;
 	margin-bottom:1.5vh;
 }
 .heading-title {
@@ -111,8 +111,17 @@ body {
 .col-centered {
     display:inline-block;
     float:none;
-	margin-left: 10%;
-	margin-right: 10%;
+}
+
+@media(max-width: 768px) {
+	.heading-description {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.heading-title {
+		margin-bottom: 8%;
+		font-size: 25px;
+	}
 }
 
 /*
@@ -120,8 +129,8 @@ body {
  */
  footer {
 	font-family: 'Roboto';
-	font-size: 16px;
-	margin-top: 15vh;
+	font-size: 14px;
+	margin-top: 10vh;
 	font-weight: 400;
  }
 

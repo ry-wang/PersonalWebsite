@@ -69,8 +69,8 @@ img {
 	margin-bottom: 0px;
 }
 .navbar li {
-	font-family:'Roboto-Thin';
-	font-size:1.3vw;
+	font-family: 'Roboto-Thin';
+	font-size: 18px;
 }
 /*Styling of the expanded navbar*/
 @media (min-width: 768px) {
@@ -116,7 +116,7 @@ img {
   }
 .carousel-inner > .item > img {
 	width: 85vw;
-	margin:auto;
+	margin: auto;
 }
 
 /*CSS for Images in Carousel Descriptions*/
@@ -135,19 +135,19 @@ img {
 
 /*CSS for Carousel Slide Two description and its Images*/
 .carousel-2-description, .carousel-3-description, .carousel-4-description {
-	display:none;
+	display: none;
 }
 
 
 /*CSS for Scroll up Button*/
 #topButton {
-	background-color:#FFF;
-	visibility:hidden;
+	background-color: #FFF;
+	visibility: hidden;
 	clear: both;
 	padding: 1%;
-	margin-right:5%;
-	float:right;
-	border:thin solid #000;
+	margin-right: 5%;
+	float: right;
+	border: thin solid #000;
 }
 
 #button-nav {
@@ -157,8 +157,8 @@ img {
 }
 
 .glyphicon-arrow-left {
-	padding:1%;
-	background-color:#FFF;
+	padding: 1%;
+	background-color: #FFF;
 	border:thin solid #000;
 	margin-right: 2%;
 }
