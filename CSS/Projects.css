@@ -111,9 +111,6 @@ img {
 }
 
 /* Declare heights because of positioning of img element */
-.carousel .item {
-  	height: auto;
-  }
 .carousel-inner > .item > img {
 	width: 85vw;
 	margin: auto;
@@ -153,7 +150,7 @@ img {
 #button-nav {
 	padding-top: 3%;
 	margin-bottom: 3%;
-	clear:both;
+	clear: both;
 }
 
 .glyphicon-arrow-left {
@@ -203,5 +200,22 @@ footer {
 	clear:right;
 	margin-bottom: 2%;
 	font-family: 'Roboto';
-	font-size:15px;
+}
+
+@media(min-width: 800px) {
+	footer {
+		font-size: 14px;
+	}
+	.vertical-align {
+	    display: flex;
+	    align-items: center;
+	}
+}
+@media(max-width: 800px) {
+	footer {
+		font-size: 12px;
+	}
+	.carousel-indicators {
+		bottom: 0px;
+	}
 }

@@ -39,6 +39,7 @@ html, body {
 }
 .navbar-default .navbar-nav>li>a {
     color: #45616F;
+    text-decoration: none;
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: #45616F;
@@ -124,6 +125,9 @@ h1 {
 	.mobile {
 		display: none;
 	}
+	footer {
+		font-size: 14px;
+	}
 }
 @media(max-width: 800px) {
 	.contact {
@@ -142,6 +146,9 @@ h1 {
 	a:hover {
 		color:#333;
 	}
+	footer {
+		font-size: 12px;
+	}
 }
 
 a {
@@ -153,6 +160,5 @@ a {
 footer {
 	margin-bottom: 2vh;
 	font-family: 'Roboto';
-	font-size:14px;	
 }
 
