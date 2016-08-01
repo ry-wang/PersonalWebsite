@@ -18,7 +18,7 @@ var main = function() {
 	
 	//Showing scroll up button
 	$(window).scroll(function() {
-		if ($(window).scrollTop() >= $(document).height() - $(window).height()) {
+		if ($(window).scrollTop() >= $(document).height() - $(window).height() - 150) {
 			$('#topButton').css('visibility', 'visible');
 		}
 		else {
