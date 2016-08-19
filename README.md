@@ -1,3 +1,3 @@
-# R-Wang97.github.io
+# Personal Website
 
-All the files to my personal website
+This repo contains all the files for my personal website, found at: http://www.ryan-wang.me
