@@ -50,8 +50,9 @@ body {
 	margin-bottom: 0px;
 }
 .navbar li {
-	font-family:'Roboto-Thin';
+	font-family:'Roboto';
 	font-size: 18px;
+	font-weight: 200;
 }
 /*Styling of the expanded navbar*/
 @media (min-width: 768px) {
