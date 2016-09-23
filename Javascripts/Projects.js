@@ -23,12 +23,6 @@ var main = function() {
 				$('.carousel-3-description').css('display', 'block');
 				$('.carousel-4-description').css('display', 'none');
 			break;
-			case "4":
-				$('.carousel-1-description').css('display', 'none');
-				$('.carousel-2-description').css('display', 'none');
-				$('.carousel-3-description').css('display', 'none');
-				$('.carousel-4-description').css('display', 'block');
-			break;
 		}
 	});
 	
