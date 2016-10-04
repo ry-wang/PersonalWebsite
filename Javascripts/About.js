@@ -19,10 +19,10 @@ var main = function() {
 	//Showing scroll up button
 	$(window).scroll(function() {
 		if ($(window).scrollTop() >= $(document).height() - $(window).height() - 150) {
-			$('#topButton').css('visibility', 'visible');
+			$('.up-button').css('visibility', 'visible');
 		}
 		else {
-			$('#topButton').css('visibility', 'hidden');
+			$('.up-button').css('visibility', 'hidden');
 		}
 	});
 	
@@ -51,7 +51,7 @@ var main = function() {
 		}
 	});
 	
-	$('#topButton').hover(
+	$('.up-button').hover(
 		function() {
 			$('.glyphicon-arrow-up').css('color', '#45616F');
 		},
@@ -61,7 +61,8 @@ var main = function() {
 	);
 	
 	//Scroll to top
-	$('#topButton').click(function() {
+	$('.up-button').click(function() {
+		$(this).css('background-color', '#FFF');
 		$("html, body").animate({ scrollTop: 0 }, "slow");
 	});
 	

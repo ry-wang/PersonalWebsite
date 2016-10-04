@@ -42,14 +42,14 @@ var main = function() {
 	//Showing scroll up button
 	$(window).scroll(function() {
 		if ($(window).scrollTop() >= $(document).height() - $(window).height() - 100) {
-			$('#topButton').css('visibility', 'visible');
+			$('.up-button').css('visibility', 'visible');
 		}
 		else {
-			$('#topButton').css('visibility', 'hidden');
+			$('.up-button').css('visibility', 'hidden');
 		}
 	});
 	
-	$('#topButton').hover(
+	$('.up-button').hover(
 		function() {
 			$('.glyphicon-arrow-up').css('color', '#45616F');
 		},
@@ -58,33 +58,36 @@ var main = function() {
 		}
 	);
 	
-	$('.glyphicon-arrow-left').hover(
+	$('.left-button').hover(
 		function() {
-			$(this).css('color', '#45616F');
+			$('.glyphicon-arrow-left').css('color', '#45616F');
 		},
 		function() {
-			$(this).css('color', '#000');
+			$('.glyphicon-arrow-left').css('color', '#000');
 		}
 	);
 	
-	$('.glyphicon-arrow-right').hover(
+	$('.right-button').hover(
 		function() {
-			$(this).css('color', '#45616F');
+			$('.glyphicon-arrow-right').css('color', '#45616F');
 		},
 		function() {
-			$(this).css('color', '#000');
+			$('.glyphicon-arrow-right').css('color', '#000');
 		}
 	);
 	
-	$('.glyphicon-arrow-left').click(function() {
+	$('.left-button').click(function() {
+		$(this).css('background-color', '#FFF');
 		window.scrollTo(0,0);
 	});
-	$('.glyphicon-arrow-right').click(function() {
+	$('.right-button').click(function() {
+		$(this).css('background-color', '#FFF');
 		window.scrollTo(0,0);
 	});
 	
 	//Scroll to top
-	$('#topButton').click(function() {
+	$('.up-button').click(function() {
+		$(this).css('background-color', '#FFF');
 		$("html, body").animate({ scrollTop: 0 }, "slow");
 	});
 };

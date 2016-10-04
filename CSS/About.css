@@ -167,18 +167,17 @@ p {
 /*--------------------------------------------------------*/
 
 /*CSS for Scroll up Button*/
-#topButton {
+.up-button {
 	clear: both;
-	background-color:#FFF;
 	visibility:hidden;
-	padding: 1%;
 	margin-right:5%;
 	float:right;
-	border:thin solid #000;
+	background-color: #FFF;
+	border-color: #FFF;
 }
-#topButton:hover {
-	cursor:pointer;
-	background-color:#333;
+.up-button:hover {
+	background-color: #FFF;
+	border-color: #FFF;
 }
 /*--------------------------------------------------------*/
 

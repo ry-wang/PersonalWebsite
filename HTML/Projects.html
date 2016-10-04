@@ -131,13 +131,20 @@
       </p>
     </div>
      
-    <div id="topButton">
-   	  <span class="glyphicon glyphicon-arrow-up" aria-hidden="true" style="color:#000;"></span>
-    </div>
+    <button type="button" class="btn btn-primary up-button">
+      <span class="glyphicon glyphicon-arrow-up" aria-hidden="true" style="color:#000;"></span>&nbsp;
+    </button>
      
     <div id="button-nav" class="row">
-      	<span class="glyphicon glyphicon-arrow-left" aria-hidden="true" style="color:#000;" href="#Carousel" role="button" data-slide="prev" title="View previous item" id="left"></span>
-       	<span class="glyphicon glyphicon-arrow-right" aria-hidden="true" style="color:#000;" href="#Carousel" role="button" data-slide="next" title="View next item" id="right"></span>
+      <button type="button" class="btn btn-primary left-button"
+      href="#Carousel" data-slide="prev" id="left">
+        <span class="glyphicon glyphicon-arrow-left" aria-hidden="true" style="color:#000;" title="View previous item"></span>&nbsp;
+      </button>
+    
+      <button type="button" class="btn btn-primary right-button"
+      href="#Carousel" role="button" data-slide="next" id="right">  	
+       	<span class="glyphicon glyphicon-arrow-right" aria-hidden="true" style="color:#000;" title="View next item"></span>&nbsp;
+      </button>
     </div>
       
     <footer>© Copyright by Ryan Wang, 2016. All rights reserved.</footer>

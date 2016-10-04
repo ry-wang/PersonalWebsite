@@ -136,15 +136,13 @@ img {
 }
 
 
-/*CSS for Scroll up Button*/
-#topButton {
-	background-color: #FFF;
-	visibility: hidden;
+.up-button {
 	clear: both;
-	padding: 1%;
-	margin-right: 5%;
-	float: right;
-	border: thin solid #000;
+	visibility:hidden;
+	margin-right:5%;
+	float:right;
+	background-color: #FFF;
+	border-color: #FFF;
 }
 
 #button-nav {
@@ -153,21 +151,20 @@ img {
 	clear: both;
 }
 
-.glyphicon-arrow-left {
-	padding: 1%;
+.left-button {
+	border-color: #FFF;
 	background-color: #FFF;
-	border:thin solid #000;
 	margin-right: 2%;
 }
-.glyphicon-arrow-right {
-	padding:1%;
+.right-button {
+	border-color: #FFF;
 	background-color:#FFF;
-	border:thin solid #000;
 	margin-left: 2%;
 }
-.glyphicon-arrow-left:hover, .glyphicon-arrow-right:hover, #topButton:hover {
+.left-button:hover, .right-button:hover, .up-button:hover {
+	border-color: #FFF;
+	background-color:#FFF;
 	cursor:pointer;
-	background-color:#333;
 }
 
 @media(max-width: 768px) {
