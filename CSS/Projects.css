@@ -70,7 +70,7 @@ img {
 }
 .navbar li {
 	font-family: 'Roboto-Thin';
-	font-size: 18px;
+	font-size: 20px;
 }
 /*Styling of the expanded navbar*/
 @media (min-width: 768px) {

@@ -51,7 +51,7 @@ body {
 }
 .navbar li {
 	font-family:'Roboto-Thin';
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 200;
 }
 /*Styling of the expanded navbar*/
@@ -87,7 +87,7 @@ body {
 	opacity: 0;
 	font-family: 'Roboto';
 	font-weight: lighter;
-	font-size: 44px;
+	font-size: 50px;
 	word-spacing: 0.15vw;
 	margin-top: 0px;
 	margin-bottom:1.5vh;
