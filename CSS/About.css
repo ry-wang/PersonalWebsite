@@ -24,70 +24,6 @@ h4 {
 	font-size: 22px;
 }
 
-/* Navigation Bar */
-.navbar {
-	background-color: #fff;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: #45616F;
-}
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #45616F;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #45616F;
-}
-
-.navbar-toggle {
-	margin-left: 4%;
-	background-color:#fff;
-}
-.navbar-nav {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #45616F;
-}
-.navbar-default .navbar-nav>li>a:hover {
-    color: #45616F;
-    text-decoration:underline;
-}
-.navbar li {
-	font-family:'Roboto-Thin';
-	font-size: 20px;
-}
-/*Styling of the expanded navbar*/
-@media (min-width: 768px) {
-	.navbar {
-		border-radius: 0px;
-	}
-	.navbar-nav {
-	    float: left;
-	    margin-left: 7%;
-	}
-	.navbar-right {
-    	float: right!important;
-    	margin-right: 7%;
-    	margin-left: 0%;
-	}
-}
-/*Some styling of the collapsed navbar*/
-@media (max-width: 768px) {
-	.navbar-nav {
-		margin-top: 15px;
-	}
-	.navbar-right {
-		margin-top: 0px;
-		margin-bottom: 15px;
-	}
-}
-/*--------------------------------------------------------*/
-
 h3 {
 	text-decoration:underline;
 	font-family: 'Roboto';
@@ -124,7 +60,7 @@ p {
 		margin-right: 15%;
 		margin-bottom: 2%;
 		float:right;
-		width: 40%;
+		width: 42%;
 	}
 }
 @media (max-width: 768px) {

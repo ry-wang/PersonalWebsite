@@ -37,65 +37,6 @@ p {
 img {
 	width: 100%;
 }
-/*--------------------------------------------------------*/
-
-/*Navbar Styling*/
-.navbar {
-	background-color: #fff;
-	margin-bottom: 0px;
-}
-.navbar-default .navbar-toggle {
-    border-color: #45616F;
-}
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #45616F;
-}
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #45616F;
-}
-.navbar-toggle {
-	margin-left: 4%;
-	background-color:#fff;
-}
-.navbar-default .navbar-nav>li>a {
-    color: #45616F;
-}
-.navbar-default .navbar-nav>li>a:hover {
-    color: #45616F;
-    text-decoration:underline;
-}
-.navbar-nav {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-.navbar li {
-	font-family: 'Roboto-Thin';
-	font-size: 20px;
-}
-/*Styling of the expanded navbar*/
-@media (min-width: 768px) {
-	.navbar {
-		border-radius: 0px;
-	}
-	.navbar-nav {
-	    float: left;
-	    margin-left: 7%;
-	}
-	.navbar-right {
-    	float: right!important;
-    	margin-right: 7%;
-	}
-}
-/*Some styling of the collapsed navbar*/
-@media (max-width: 768px) {
-	.navbar-nav {
-		margin-top: 15px;
-	}
-	.navbar-right {
-		margin-top: 0px;
-		margin-bottom: 15px;
-	}
-}
 
 .mmImages, .wwImages {
 	margin-right: 5%;
@@ -106,13 +47,13 @@ img {
 
 /* Carousel CSS */
 .carousel {
-	height: auto;
-	margin-bottom:2%;
+	height: 500px;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-inner > .item > img {
-	width: 85vw;
+	height: 500px;
+	width: auto;
 	margin: auto;
 }
 
