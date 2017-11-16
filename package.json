@@ -1,0 +1,15 @@
+{
+  "name": "R-Wang97.github.io",
+  "version": "3.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css"
+  },
+  "repository": "https://github.com/R-Wang97/R-Wang97.github.io.git",
+  "author": "Ryan Wang <shirui.wang@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.6.1"
+  }
+}
