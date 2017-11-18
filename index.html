@@ -4,70 +4,96 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ryan Wang</title>
-    <link rel="shortcut icon" href="Images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="public/images/favicon.png" type="image/png">
 
-   <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity=  "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--Materialize Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
     <!-- Custom styles -->
-    <link href="CSS/Navbar.css" rel="stylesheet">
-    <link href="CSS/Index.css" rel="stylesheet">
     <link href="public/css/main.css" rel="stylesheet">
-</head>
-
+  </head>
   <body>
-
     <div class="container-fluid">
 
-      <div class="row">
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
-                <!-- <span class="sr-only">Toggle navigation</span> -->
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="collapse-navbar">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="HTML/About.html">About</a></li>
-                <li><a href="HTML/Projects.html">Projects</a></li>
-                <li><a href="Wang_Ryan_Resume.pdf" target="_blank">Resume</a></li>
-                <li><a href="HTML/Contact.html">Contact</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-           </div>  <!-- container-fluid div-->
-        </nav>
-      </div>
-
-      <div class="row">
-        <div class="col-md-8 col-centered content">
-        	<img src="Images/profile2.jpg" id="Picture" alt="0">
-          <h1 class="heading">Ryan Wang</h1>
-          <h3 class="heading-title">Software Engineering Student at the University of Waterloo</h3>
-          <p class="heading-description">Welcome to my website! I'm a student at the University of Waterloo studying Software Engineering. Previously, I have worked at theScore Inc. and Paytm Labs.</p>
+      <div class="main">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>RYAN WANG</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
+            <ul>
+              <li>ABOUT</li>
+              <li>PROJECTS</li>
+              <li><a href="https://github.com/R-Wang97" target="_blank">GITHUB</a></li>
+              <li><a href="Wang_Ryan_Resume.pdf" target="_blank">RESUME</a></li>
+              <li>CONTACT</li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <div class="row">
-        <footer>© Copyright by Ryan Wang, 2017. All rights reserved.</footer>
+      <div id="about">
+        <div class="row about-intro">
+          <div class="col-md-6">
+            <p>Welcome! My name is Ryan, and this is my personal website. I am a student currently enrolled in the Software Engineering program at the University of Waterloo in Waterloo, Canada. Previously, I have worked at Paytm Labs and at theScore Inc., both times as a Software Engineering Intern. Through school, personal projects, and internships, I've gained experience working with C++, Javascript, Ruby, Elixir, and Java. I love technology, and I want to be able to develop software that works together with hardware to enhance and enrich peoples' daily lives.</p>
+          </div>
+        </div>
+        <div class="row about-hobbies">
+          <div class="col-md-6">
+            <p>Aside from computers and software, one of my longtime passions has been music, specficially the piano. I've studied the piano for over 14 years, and I still currently play. I completed all the theory and practical requirements for the RCM ARCT's Diploma in Piano Performance in 2014. I've performed at numerous concerts and also participated in competitions as a solo pianist.</p>
+            <p>In addition to the piano, I've been playing clarinet for the past 8 years, and I've given performances, whether it be in the school wind ensemble or as a part of a chamber ensemble. In high school, I also played piano in the jazz band in addition to being the accompanist for the school choir. I was also on my school Music Council for three years, serving as a Vice-President in my senior year, and as Secretary for the previous two.</p>
+          </div>
+       </div>
       </div>
 
-    </div>
+      <div id="projects" class="row">
+        <div class="col-md-4">
+          <h4>Mattermost</h4>
+          <p>Mattermost is an open source, self-hosted alternative to the popular messaging app Slack, written with ReactJS and Golang. I've been a contributor to the project since August 2016, mainly working on the React web client. Some of the work I've done includes enabling an emoji picker when editing messages, allowing users to add reactions to an existing post, and creating confirmation modals for destructive actions.</p>
+          <p><a href="https://github.com/mattermost" target="_blank" title ="View on Github">View on Github</a></p>
+        </div>
+        <div class="col-md-4">
+          <h4>Megaman</h4>
+          <p>Megaman is my own version of the popular platformer made using Java and Object Oriented Programming. The game features a menu, instructions, credits, and scoreboard, with audio from the original game. The game itself consists of a playable and fully animated character, turrets, and randomly spawning enemies, with the goal being to progress through all the levels without dying.</p>
+          <p><a href="https://github.com/R-Wang97/Megaman" target="_blank" title ="View on Github">View on Github</a></p>
+        </div>
+        <div class="col-md-4">
+          <h4>WATWatch</h4>
+          <p>WATWatch was a project that I worked on with four other classmates for one of our school courses. It is a simple functional smartwatch that takes full use of the hardware capabilities of a Tiva Launchpad Microcontroller and Orbit Booster Pack. WATWatch tracks time, steps, and calories burned in a session. In addition to displaying time, it also features an alarm, timer, stopwatch, and displays ambient temperature.</p>
+          <p><a href="https://github.com/DavidLu1997/se101project" target="_blank" title ="View on Github">View on Github</a></p>
+        </div>
+        <div class="col-md-12">
+          <h5>My other projects can be viewed on <a href="https://github.com/R-Wang97" target="_blank">Github</a>.</h5>
+        </div>
+      </div>
 
+      <div id="contact" class="row">
+        <div class="col-md-12">
+          <ul>
+            <li><a href="Wang_Ryan_Resume.pdf" target="_blank">RESUME</a></li>
+            <li><a href="https://github.com/R-Wang97" target="_blank">GITHUB</a></li>
+            <li><a href="https://ca.linkedin.com/in/shiruiWang" target="_blank">LINKEDIN</a></li>
+            <li>EMAIL</li>
+          </ul>
+          <footer>© Copyright by Ryan Wang, 2017. All rights reserved.</footer>
+        </div>
+      </div>
+
+
+    </div>
   </body>
 
-    <!--jQuery and bootstrap library as well as own javascript file-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="Javascripts/index.js"></script>
-    <script src="Javascripts/Analytics.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="public/js/main.js"></script>
+  <script src="public/js/analytics.js"></script>
 
 </html>
