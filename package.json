@@ -4,8 +4,7 @@
   "description": "Personal Website",
   "main": "index.js",
   "scripts": {
-    "build:sass": "node-sass -r --output-style compressed scss/ -o public/css/",
-    "watch:sass": "yarn run build:sass && yarn run build:sass -w"
+    "build:sass": "node-sass -r --output-style compressed scss/main.scss -o public/css"
   },
   "repository": "https://github.com/R-Wang97/R-Wang97.github.io.git",
   "author": "Ryan Wang <shirui.wang@hotmail.com>",
