@@ -1,0 +1,30 @@
+#contact {
+  background-color: #212121;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  font-weight: 100;
+  text-align: center;
+
+  .contact-info {
+    margin-bottom: 5%;
+
+    li {
+      display: inline;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      font-weight: 100;
+
+      @media (min-width: 600px) {
+        font-size: 1.25rem;
+      }
+
+      @media (max-width: 600px) {
+        font-size: 1.15rem;
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 0.9rem;
+  }
+}

@@ -15,6 +15,7 @@
     <!-- Custom styles -->
     <link href="public/css/main.css" rel="stylesheet">
   </head>
+
   <body>
     <div class="container">
       <div id="main" class="valign-wrapper">
@@ -35,88 +36,98 @@
       </div>
     </div>
 
-    <div class="container">
-      <div id="about" class="valign-wrapper">
-        <div class="about-wrapper">
-          <div class="row about-intro">
-            <div class="col s12 m6">
-              <p>Welcome! My name is Ryan, and this is my personal website. I am a student currently enrolled in the Software Engineering program at the University of Waterloo in Canada. Previously, I have worked at Paytm Labs and at theScore Inc., both times as a Software Engineering Intern. Through school, personal projects, and internships, I've gained experience working with C++, Javascript, Ruby, Elixir, and Java. I love technology, and I want to be able to develop software that works together with hardware to enhance and enrich peoples' daily lives.</p>
-            </div>
+    <div id="about" class="">
+      <div class="about-wrapper">
+        <div class="row center-align">
+          <div class="col s12">
+            <h1 class="about-title">About Me</h1>
           </div>
-          <div class="row about-hobbies valign-wrapper">
-            <div class="col s12 m12 l6">
-              <p>Aside from computers and software, one of my longtime passions has been music, specficially the piano. I've studied the piano for over 14 years, and I still currently play. I completed all the theory and practical requirements for the RCM ARCT's Diploma in Piano Performance in 2014. I've performed at numerous concerts and also participated in competitions as a solo pianist.</p>
-              <p>In addition to the piano, I've been playing clarinet for the past 8 years, and I've given performances, whether it be in the school wind ensemble or as a part of a chamber ensemble. In high school, I also played piano in the jazz band in addition to being the accompanist for the school choir. I was also on my school Music Council for three years, serving as a Vice-President in my senior year, and as Secretary for the previous two.</p>
-            </div>
-            <div class="col l6">
-              <img src="public/images/music.jpg" class="hide-on-med-and-down">
-            </div>
-         </div>
         </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div id="projects" class="valign-wrapper">
-        <div class="row projects-wrapper">
-          <div class="col s10 m6 l4">
-            <div class="card sticky-action">
-              <div class="card-image">
-                <img class="activator" src="public/images/mattermost.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Mattermost</span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title">Mattermost<i class="material-icons right">close</i></span>
-                <p>Mattermost is an open source, self-hosted alternative to the popular messaging app Slack, written with ReactJS and Golang. I've been a contributor to the project since August 2016, mainly working on the React web client. Some of the work I've done includes enabling an emoji picker when editing messages, allowing users to add reactions to an existing post, and creating confirmation modals for destructive actions.</p>
-              </div>
-              <div class="card-action center-align">
-                <p><a href="https://github.com/mattermost" target="_blank" title ="View on Github">View on Github</a></p>
-              </div>
-            </div>
+        <div class="row about-intro valign-wrapper">
+          <div class="col s12 m12 l6">
+            <p>Welcome! My name is Ryan, and this is my personal website. I am a student currently enrolled in the Software Engineering program at the University of Waterloo in Canada. Previously, I have worked at Paytm Labs and at theScore Inc., both times as a Software Engineering Intern. Through school, personal projects, and internships, I've gained experience working with C++, Javascript, Ruby, Elixir, and Java. I love technology, and I want to be able to develop software that works together with hardware to enhance and enrich peoples' daily lives.</p>
           </div>
-          <div class="col s10 m6 l4">
-            <div class="card sticky-action">
-              <div class="card-image">
-                <img class="activator" src="public/images/megaman.jpg">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Megaman</span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title">Megaman<i class="material-icons right">close</i></span>
-                <p>Megaman is my own version of the popular platformer made using Java and Object Oriented Programming. The game features a menu, instructions, credits, and scoreboard, with audio from the original game. The game itself consists of a playable and fully animated character, turrets, and randomly spawning enemies, with the goal being to progress through all the levels without dying.</p>
-              </div>
-              <div class="card-action center-align">
-                <p><a href="https://github.com/R-Wang97/Megaman" target="_blank" title ="View on Github">View on Github</a></p>
-              </div>
-            </div>
+          <div class="col s12 m12 l6 center-align">
+            <img src="public/images/profile.jpg">
           </div>
-          <div class="col s10 m6 l4">
-            <div class="card sticky-action">
-              <div class="card-image">
-                <img class="activator" src="public/images/watwatch.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">WATWatch</span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title">WATWatch<i class="material-icons right">close</i></span>
-                <p>WATWatch was a project that I worked on with four other classmates for one of our school courses. It is a simple functional smartwatch that takes full use of the hardware capabilities of a Tiva Launchpad Microcontroller and Orbit Booster Pack. WATWatch tracks time, steps, and calories burned in a session. In addition to displaying time, it also features an alarm, timer, stopwatch, and displays ambient temperature.</p>
-              </div>
-              <div class="card-action center-align">
-                <p><a href="https://github.com/DavidLu1997/se101project" target="_blank" title ="View on Github">View on Github</a></p>
-              </div>
-            </div>
+        </div>
+        <div class="row about-piano valign-wrapper">
+          <div class="col s12 m12 l6">
+            <p>Aside from computers and software, one of my longtime passions has been music, specficially the piano. I've studied classical piano for over 14 years, and I still currently play. I completed all the theory and practical requirements for the RCM ARCT's Diploma in Piano Performance in 2014. I've performed at numerous concerts and also participated in competitions as a solo pianist. My favourite composers are Chopin and Beethoven.</p>
           </div>
-          <div class="col s12 center-align">
-            <p>My other projects can be viewed on <a href="https://github.com/R-Wang97" target="_blank">GitHub</a>.</p>
+          <div class="col s12 m12 l6 center-align">
+            <img src="public/images/piano.jpg">
+          </div>
+       </div>
+       <div class="row about-other valign-wrapper">
+          <div class="col s12">
+            <p>In addition to the piano, I've been playing clarinet for the past 8 years, and I've given performances, whether it be in the school wind ensemble or as a part of a chamber ensemble. In high school, I also played piano in the jazz band in addition to being the accompanist for the school choir. I was also on my school Music Council for three years, serving as a Vice-President in my senior year, and as Secretary for the previous two.</p>
           </div>
         </div>
       </div>
     </div>
 
+    <div id="projects" class="valign-wrapper">
+      <div class="row projects-wrapper">
+        <div class="col s12">
+          <h1 class="projects-title center-align">Projects</h1>
+        </div>
+        <div class="col offset-s1 s10 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image">
+              <img class="activator" src="public/images/mattermost.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator">Mattermost</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Mattermost<i class="material-icons right">close</i></span>
+              <p>Mattermost is an open source, self-hosted alternative to the popular messaging app Slack, written with ReactJS and Golang. I've been a contributor to the project since August 2016, mainly working on the React web client. Some of the work I've done includes enabling an emoji picker when editing messages, allowing users to add reactions to an existing post, and creating confirmation modals for destructive actions.</p>
+            </div>
+            <div class="card-action center-align">
+              <p><a href="https://github.com/mattermost" target="_blank" title ="View on Github">View on Github</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col offset-s1 s10 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image">
+              <img class="activator" src="public/images/megaman.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator">Megaman</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Megaman<i class="material-icons right">close</i></span>
+              <p>Megaman is my own version of the popular platformer made using Java and Object Oriented Programming. The game features a menu, instructions, credits, and scoreboard, with audio from the original game. The game itself consists of a playable and fully animated character, turrets, and randomly spawning enemies, with the goal being to progress through all the levels without dying.</p>
+            </div>
+            <div class="card-action center-align">
+              <p><a href="https://github.com/R-Wang97/Megaman" target="_blank" title ="View on Github">View on Github</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col offset-s1 offset-m3 s10 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image">
+              <img class="activator" src="public/images/watwatch.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator">WATWatch</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">WATWatch<i class="material-icons right">close</i></span>
+              <p>WATWatch was a project that I worked on with four other classmates for one of our school courses. It is a simple functional smartwatch that takes full use of the hardware capabilities of a Tiva Launchpad Microcontroller and Orbit Booster Pack. WATWatch tracks time, steps, and calories burned in a session. In addition to displaying time, it also features an alarm, timer, stopwatch, and displays ambient temperature.</p>
+            </div>
+            <div class="card-action center-align">
+              <p><a href="https://github.com/DavidLu1997/se101project" target="_blank" title ="View on Github">View on Github</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 center-align">
+          <p>My other projects can be viewed on <a href="https://github.com/R-Wang97" target="_blank">GitHub</a>.</p>
+        </div>
+      </div>
+    </div>
   </body>
 
   <footer id="contact">

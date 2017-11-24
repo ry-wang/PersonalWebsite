@@ -1,23 +1,29 @@
+@import "home";
+@import "about";
+@import "projects";
+@import "contact";
+
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: #263238;
   color: white;
 }
 
-#about {
-  margin-top: 4%;
-  margin-bottom: 4%;
+a:link, a:visited {
+  color: white;
 }
 
-#projects {
-  margin-top: 4%;
-  margin-bottom: 4%;
+a {
+  transition: all 300ms ease-in-out;
+  border-bottom: 1px solid transparent;
+  border-bottom-width: 1.5px;
 }
 
-#contact {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-footer {
-  text-align: center;
+a:hover {
+  transition: all 300ms ease-in-out;
+  padding-bottom: 0.375em;
+  border-bottom-color: #ffab40;
 }
