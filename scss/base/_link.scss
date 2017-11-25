@@ -1,0 +1,14 @@
+a {
+  transition: all 300ms ease-in-out;
+  border-bottom: 1px solid transparent;
+  border-bottom-width: 1.5px;
+
+  &:link, &:visited {
+    color: $default-font-color;
+  }
+
+  &:hover {
+    padding-bottom: 0.375em;
+    border-bottom-color: $highlight-font-color;
+  }
+}
