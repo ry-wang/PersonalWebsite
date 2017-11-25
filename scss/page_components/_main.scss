@@ -13,12 +13,10 @@
       margin-bottom: 1.5%;
     }
 
-    .main-info li {
-      display: inline;
+    li {
+      @extend %list-element;
       margin-left: 1%;
       margin-right: 1%;
-      font-weight: 100;
-      font-size: 1.25rem;
     }
   }
 }

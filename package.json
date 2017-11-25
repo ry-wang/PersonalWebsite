@@ -2,14 +2,16 @@
   "name": "R-Wang97.github.io",
   "version": "3.0.0",
   "description": "Personal Website",
-  "main": "index.js",
   "scripts": {
-    "build:sass": "node-sass -r --output-style compressed scss/main.scss -o public/css"
+    "build:sass": "node-sass -r --output-style compressed scss/root.scss -o public/css"
   },
   "repository": "https://github.com/R-Wang97/R-Wang97.github.io.git",
   "author": "Ryan Wang <shirui.wang@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
     "node-sass": "^4.6.1"
   }
 }

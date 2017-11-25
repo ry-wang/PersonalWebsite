@@ -1,0 +1,20 @@
+#contact {
+  background-color: $contact-bg-color;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+
+  .contact-info {
+    margin-bottom: 5%;
+
+    li {
+      @extend %list-element;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+    }
+  }
+
+  .copyright {
+    font-size: 0.9rem;
+  }
+}

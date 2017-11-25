@@ -1,0 +1,11 @@
+%list-element {
+  display: inline;
+
+  @media (min-width: $small-max-width) {
+    font-size: 1.25rem;
+  }
+
+  @media (max-width: $small-max-width) {
+    font-size: 1.15rem;
+  }
+}

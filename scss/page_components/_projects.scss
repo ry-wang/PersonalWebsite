@@ -1,19 +1,25 @@
 #projects {
-  font-weight: 100;
-
   p {
-    @media (max-width: 600px) {
+    @media (max-width: $small-max-width) {
       font-size: 1.1rem;
+    }
+
+    @media (min-width: $small-max-width) and (max-width: $medium-max-width) {
+      font-size: 1.13rem;
+    }
+
+    @media (min-width: $large-max-width) {
+      font-size: 1.2rem;
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: $small-max-width) {
     padding-left: 6%;
     padding-right: 6%;
     padding-bottom: 10%;
   }
 
-  @media (min-width: 600px) {
+  @media (min-width: $small-max-width) {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
@@ -36,7 +42,7 @@
     }
 
     .card {
-      background-color: #424242;
+      background-color: $card-bg-color;
 
       .card-content {
         padding: 5%;
@@ -48,29 +54,26 @@
       }
 
       .card-reveal {
-        background-color: #424242;
+        background-color: $card-bg-color;
       }
 
       .card-action {
         padding: 4%;
 
-        a:hover {
-          color: #ffab40;
-        }
-
-        p, a {
+        a {
+          color: $highlight-font-color;
           margin: 0;
           transition: all 300ms ease-in-out;
+
+          &:hover, &:visited {
+            color: $highlight-font-color;
+          }
+        }
+
+        p {
+          margin: 0;
         }
       }
-    }
-  }
-
-  p {
-    font-weight: 100;
-
-    @media(min-width: 800px) {
-      font-size: 1.1rem;
     }
   }
 }
