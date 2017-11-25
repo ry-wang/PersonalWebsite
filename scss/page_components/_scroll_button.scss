@@ -1,0 +1,22 @@
+#scroll {
+  background-color: transparent;
+  display: none;
+
+  i {
+    opacity: 0.85;
+    color: $highlight-font-color;
+    font-size: 1.8rem;
+  }
+
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+
+  @media (max-width: $small-max-width) {
+    padding: 0 1rem;
+  }
+
+  @media (min-width: $small-max-width) {
+    padding: 0 2rem;
+  }
+}

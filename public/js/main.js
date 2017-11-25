@@ -4,8 +4,18 @@ function scrollToDiv(div, time) {
   }, time);
 }
 
+function toggleScrollButton() {
+  if ($(window).scrollTop() > $("#main").outerHeight() / 2) {
+    $("#scroll").css("display", "inline-block");
+  } else {
+    $("#scroll").css("display", "none");
+  }
+}
+
 $(document).ready(function() {
   "use strict";
+
+  toggleScrollButton();
 
   $("a[href='#about']").click(function(e) {
     e.preventDefault();
@@ -20,6 +30,15 @@ $(document).ready(function() {
   $("a[href='#contact']").click(function(e) {
     e.preventDefault();
     scrollToDiv("#contact", 2000);
+  });
+
+  $("#scroll").click(function(e) {
+    e.preventDefault();
+    scrollToDiv("#main", 1500);
+  });
+
+  $(window).scroll(function() {
+    toggleScrollButton();
   });
 });
 
