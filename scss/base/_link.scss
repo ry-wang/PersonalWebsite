@@ -11,4 +11,8 @@ a {
     padding-bottom: 0.375em;
     border-bottom-color: $highlight-font-color;
   }
+
+  @media (max-width: $small-max-width) {
+    font-size: 0.8rem;
+  }
 }

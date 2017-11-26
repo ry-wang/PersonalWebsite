@@ -12,7 +12,7 @@
     padding-bottom: 3%;
   }
 
-  p {
+  p, a {
     @media (max-width: $small-max-width) {
       font-size: 1.2rem;
     }
@@ -24,6 +24,12 @@
     @media (min-width: $large-max-width) {
       font-size: 1.4rem;
     }
+
+    a, a:hover {
+      padding-bottom: 0;
+      border-bottom: 1px solid transparent;
+      border-bottom-color: $highlight-font-color;
+    }
   }
 
   .about-wrapper {
@@ -34,7 +40,11 @@
     text-transform: uppercase;
     font-weight: 100;
 
-    @media (max-width: $medium-max-width) {
+    @media (max-width: $small-max-width) {
+      font-size: 3rem;
+    }
+
+    @media (min-width: $small-max-width) and (max-width: $medium-max-width) {
       font-size: 3.5rem;
     }
   }
