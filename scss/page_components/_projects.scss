@@ -1,4 +1,6 @@
 #projects {
+  padding-top: 4%;
+
   p, .projects-link {
     @media (max-width: $small-max-width) {
       font-size: 1.1rem;

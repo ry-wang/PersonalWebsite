@@ -27,11 +27,6 @@ $(document).ready(function() {
     scrollToDiv("#projects", 1500);
   });
 
-  $("a[href='#contact']").click(function(e) {
-    e.preventDefault();
-    scrollToDiv("#contact", 2000);
-  });
-
   $("#scroll").click(function(e) {
     e.preventDefault();
     scrollToDiv("#main", 1500);
