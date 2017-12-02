@@ -65,8 +65,14 @@
       }
 
       .card-content {
+        position: relative;
         padding: 5%;
         text-align: center;
+
+        .icon {
+          position: absolute;
+          right: 5%;
+        }
       }
 
       .card-reveal {
